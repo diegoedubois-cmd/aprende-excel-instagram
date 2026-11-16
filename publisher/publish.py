@@ -113,12 +113,11 @@ def main():
             print(f"   publicado: {mid}")
         except Exception as e:  # sigue con el resto y deja constancia
             errors += 1
-            prev = state.get(post["id"], {})
             print(f"   ERROR: {e}", file=sys.stderr)
-            if prev.get("tries", 0) >= 2:
+            retries = state.setdefault("_retries", {})
+            retries[post["id"]] = retries.get(post["id"], 0) + 1
+            if retries[post["id"]] >= 3:
                 state[post["id"]] = {"status": "error", "error": str(e)[:500], "at": now.isoformat()}
-            else:
-                state.setdefault("_retries", {})[post["id"]] = prev.get("tries", 0) + 1
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     json.dump(state, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if errors:
