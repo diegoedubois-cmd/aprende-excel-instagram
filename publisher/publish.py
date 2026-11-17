@@ -73,6 +73,8 @@ def container(post):
         p = {"media_type": "REELS", "video_url": media_url(media[0]), "caption": caption, "share_to_feed": "true"}
         if post.get("cover"):
             p["cover_url"] = media_url(post["cover"])
+        elif post.get("cover_ms") is not None:
+            p["thumb_offset"] = str(post["cover_ms"])
         return call("POST", f"{IG_USER}/media", p)["id"]
     if kind == "STORY":
         m = media[0]
