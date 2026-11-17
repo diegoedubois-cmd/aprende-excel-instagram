@@ -86,6 +86,65 @@ def container(post):
     raise ValueError(f"tipo desconocido: {kind}")
 
 
+FB_PAGE = os.environ.get("FB_PAGE_ID", "")
+_fb_token = None
+
+
+def fb_token():
+    """Token de la página si el token del sistema tiene pages_manage_posts; si no, None."""
+    global _fb_token
+    if _fb_token is not None:
+        return _fb_token or None
+    _fb_token = ""
+    if not FB_PAGE:
+        return None
+    try:
+        perms = call("GET", "me/permissions", {})
+        granted = {p["permission"] for p in perms.get("data", []) if p.get("status") == "granted"}
+        if "pages_manage_posts" not in granted:
+            print("Facebook: falta el permiso pages_manage_posts, solo se publica en Instagram")
+            return None
+        _fb_token = call("GET", FB_PAGE, {"fields": "access_token"}).get("access_token", "")
+    except Exception as e:
+        print(f"Facebook: no disponible ({e})")
+    return _fb_token or None
+
+
+def fb_call(method, path, params, tok):
+    global TOKEN
+    old, TOKEN = TOKEN, tok
+    try:
+        return call(method, path, params)
+    finally:
+        TOKEN = old
+
+
+def fb_publish(post):
+    """Publica el mismo contenido en la página de Facebook. Historias de Facebook no se publican."""
+    tok = fb_token()
+    if not tok or post["type"] == "STORY":
+        return None
+    kind, media, caption = post["type"], post["media"], post.get("caption", "")
+    if kind == "REEL":
+        vid = fb_call("POST", f"{FB_PAGE}/video_reels", {"upload_phase": "start"}, tok)["video_id"]
+        req = urllib.request.Request(
+            f"https://rupload.facebook.com/video-upload/v24.0/{vid}", method="POST",
+            headers={"Authorization": f"OAuth {tok}", "file_url": media_url(media[0])})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            json.load(r)
+        fb_call("POST", f"{FB_PAGE}/video_reels", {"upload_phase": "finish", "video_id": vid,
+                                                    "video_state": "PUBLISHED", "description": caption}, tok)
+        return vid
+    imgs = [m for m in media if not is_video(m)]
+    if not imgs:
+        return None
+    ids = [fb_call("POST", f"{FB_PAGE}/photos", {"url": media_url(m), "published": "false"}, tok)["id"] for m in imgs]
+    params = {"message": caption}
+    for i, pid in enumerate(ids):
+        params[f"attached_media[{i}]"] = json.dumps({"media_fbid": pid})
+    return fb_call("POST", f"{FB_PAGE}/feed", params, tok)["id"]
+
+
 def main():
     cal = json.load(open(CAL, encoding="utf-8"))
     state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {}
@@ -113,6 +172,13 @@ def main():
             mid = call("POST", f"{IG_USER}/media_publish", {"creation_id": cid})["id"]
             state[post["id"]] = {"status": "publicado", "media_id": mid, "at": dt.datetime.now(TZ).isoformat()}
             print(f"   publicado: {mid}")
+            try:
+                fid = fb_publish(post)
+                if fid:
+                    state[post["id"]]["facebook_id"] = fid
+                    print(f"   también en Facebook: {fid}")
+            except Exception as e:  # Facebook no debe frenar Instagram
+                print(f"   Facebook falló: {e}", file=sys.stderr)
         except Exception as e:  # sigue con el resto y deja constancia
             errors += 1
             print(f"   ERROR: {e}", file=sys.stderr)

@@ -122,7 +122,7 @@
  {
   "id": "day01-story1",
   "type": "STORY",
-  "at": "2026-11-23T09:00:00",
+  "at": "2026-11-19T09:00:00",
   "media": [
    "content/media/day01/s1.jpg"
   ]
@@ -130,7 +130,7 @@
  {
   "id": "day01-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-23T13:30:00",
+  "at": "2026-11-19T13:30:00",
   "media": [
    "content/media/day01/c1.jpg",
    "content/media/day01/c2.jpg",
@@ -141,12 +141,12 @@
    "content/media/day01/c7.jpg",
    "content/media/day01/c8.jpg"
   ],
-  "caption": "Cómo usar SUMA en Excel con devoluciones\n\nSi tu caja no cuadra justo por el doble de lo devuelto, el error casi siempre es este: escribiste las devoluciones en positivo y SUMA las contó como ventas.\n\nLa regla: todo lo que sale de caja (devoluciones, abonos, gastos) va en negativo. Así una sola =SUMA(B2:B7) ya resta lo que tiene que restar. ¿Ya las tienes en positivo en otra columna? Usa =SUMA(B2:B7)-SUMA(C2:C7).\n\nEn el carrusel tienes el paso a paso y una chuleta para revisar tu próximo cierre.\n\nMándaselo a quien todavía cierra la caja con calculadora.\n\nPractica esta misión gratis en el Distrito 1: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #CierreDeCaja"
+  "caption": "Cómo usar SUMA en Excel con devoluciones\n\nSi tu caja no cuadra justo por el doble de lo devuelto, el error casi siempre es este: escribiste las devoluciones en positivo y SUMA las contó como ventas.\n\nLa regla: todo lo que sale de caja (devoluciones, abonos, gastos) va en negativo. Así una sola =SUMA(B2:B7) ya resta lo que tiene que restar. ¿Ya las tienes en positivo en otra columna? Usa =SUMA(B2:B7)-SUMA(C2:C7).\n\nEn el carrusel tienes el paso a paso y una chuleta para revisar tu próximo cierre.\n\nMándaselo a quien todavía cierra la caja con calculadora.\n\nPractica esta misión gratis en el Distrito 1: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #CierreDeCaja"
  },
  {
   "id": "day01-story2",
   "type": "STORY",
-  "at": "2026-11-23T15:00:00",
+  "at": "2026-11-19T15:00:00",
   "media": [
    "content/media/day01/s2.jpg"
   ]
@@ -154,17 +154,17 @@
  {
   "id": "day01-reel",
   "type": "REEL",
-  "at": "2026-11-23T20:00:00",
+  "at": "2026-11-19T20:00:00",
   "media": [
    "content/media/day01/reel.mp4"
   ],
   "cover": "content/media/day01/reel_cover.jpg",
-  "caption": "Por qué tu caja no cuadra en Excel (SUMA con devoluciones)\n\nSi el descuadre es el doble de lo devuelto, escribiste las devoluciones en positivo. Ponlas en negativo y una sola =SUMA(B2:B7) cierra la semana.\n\nMándaselo a quien cierra la caja contigo. Practica gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
+  "caption": "Por qué tu caja no cuadra en Excel (SUMA con devoluciones)\n\nSi el descuadre es el doble de lo devuelto, escribiste las devoluciones en positivo. Ponlas en negativo y una sola =SUMA(B2:B7) cierra la semana.\n\nMándaselo a quien cierra la caja contigo. Practica gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
  },
  {
   "id": "day01-story3",
   "type": "STORY",
-  "at": "2026-11-23T22:00:00",
+  "at": "2026-11-19T22:00:00",
   "media": [
    "content/media/day01/s3.jpg"
   ]
@@ -172,7 +172,7 @@
  {
   "id": "day02-story1",
   "type": "STORY",
-  "at": "2026-11-24T09:00:00",
+  "at": "2026-11-20T09:00:00",
   "media": [
    "content/media/day02/s1.jpg"
   ]
@@ -180,7 +180,7 @@
  {
   "id": "day02-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-24T13:30:00",
+  "at": "2026-11-20T13:30:00",
   "media": [
    "content/media/day02/c1.jpg",
    "content/media/day02/c2.jpg",
@@ -192,12 +192,12 @@
    "content/media/day02/c8.jpg",
    "content/media/day02/c9.jpg"
   ],
-  "caption": "Cómo fijar una celda en Excel con F4 (referencias absolutas)\n\nEscribes =B2*B1 para la comisión, copias hacia abajo… y a Luis le salen 1.032.000 € de comisión. No es un fallo de Excel: al copiar, las referencias se mueven. B1 pasa a ser B2, luego B3, y cada fila multiplica por la venta de arriba.\n\nLa solución es una tecla: al escribir B1, pulsa F4 y se convierte en $B$1. El $ congela la celda y ya puedes copiar sin miedo.\n\nEn el carrusel tienes las 4 posiciones de F4 (absoluta, mixta y relativa) y cuándo usar cada una.\n\nGuárdalo para la próxima vez que una fórmula se rompa al copiarla.\n\nEn portátil quizá necesites Fn+F4; en Mac, Cmd+T.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #AtajosExcel"
+  "caption": "Cómo fijar una celda en Excel con F4 (referencias absolutas)\n\nEscribes =B2*B1 para la comisión, copias hacia abajo… y a Luis le salen 1.032.000 € de comisión. No es un fallo de Excel: al copiar, las referencias se mueven. B1 pasa a ser B2, luego B3, y cada fila multiplica por la venta de arriba.\n\nLa solución es una tecla: al escribir B1, pulsa F4 y se convierte en $B$1. El $ congela la celda y ya puedes copiar sin miedo.\n\nEn el carrusel tienes las 4 posiciones de F4 (absoluta, mixta y relativa) y cuándo usar cada una.\n\nGuárdalo para la próxima vez que una fórmula se rompa al copiarla.\n\nEn portátil quizá necesites Fn+F4; en Mac, Cmd+T.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #AtajosExcel"
  },
  {
   "id": "day02-story2",
   "type": "STORY",
-  "at": "2026-11-24T15:00:00",
+  "at": "2026-11-20T15:00:00",
   "media": [
    "content/media/day02/s2.jpg"
   ]
@@ -205,27 +205,27 @@
  {
   "id": "app-demo01",
   "type": "REEL",
-  "at": "2026-11-24T17:00:00",
+  "at": "2026-11-20T17:00:00",
   "media": [
    "content/media/app/demo01.mp4"
   ],
   "cover_ms": 600,
-  "caption": "Así es aprender Excel jugando 🎮\n\nUna ciudad de 10 distritos, misiones de trabajo reales y una app que corrige tu fórmula al momento. Si fallas, te dice por qué. Si aciertas, sumas XP y monedas.\n\nTu primer distrito es gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #TrucosExcel"
+  "caption": "Así es aprender Excel jugando 🎮\n\nUna ciudad de 10 distritos, misiones de trabajo reales y una app que corrige tu fórmula al momento. Si fallas, te dice por qué. Si aciertas, sumas XP y monedas.\n\nTu primer distrito es gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #TrucosExcel"
  },
  {
   "id": "day02-reel",
   "type": "REEL",
-  "at": "2026-11-24T20:00:00",
+  "at": "2026-11-20T20:00:00",
   "media": [
    "content/media/day02/reel.mp4"
   ],
   "cover": "content/media/day02/reel_cover.jpg",
-  "caption": "Cómo fijar una celda en Excel con F4\n\nCopias =B2*B1 hacia abajo y la comisión sale en millones: las referencias se mueven. Pulsa F4 sobre B1 y queda $B$1, fija. En Mac, Cmd+T.\n\nGuárdalo para tu próxima fórmula. Practica gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel"
+  "caption": "Cómo fijar una celda en Excel con F4\n\nCopias =B2*B1 hacia abajo y la comisión sale en millones: las referencias se mueven. Pulsa F4 sobre B1 y queda $B$1, fija. En Mac, Cmd+T.\n\nGuárdalo para tu próxima fórmula. Practica gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel"
  },
  {
   "id": "day02-story3",
   "type": "STORY",
-  "at": "2026-11-24T22:00:00",
+  "at": "2026-11-20T22:00:00",
   "media": [
    "content/media/day02/s3.jpg"
   ]
@@ -233,7 +233,7 @@
  {
   "id": "day03-story1",
   "type": "STORY",
-  "at": "2026-11-25T09:00:00",
+  "at": "2026-11-21T09:00:00",
   "media": [
    "content/media/day03/s1.jpg"
   ]
@@ -241,7 +241,7 @@
  {
   "id": "day03-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-25T13:30:00",
+  "at": "2026-11-21T13:30:00",
   "media": [
    "content/media/day03/c1.jpg",
    "content/media/day03/c2.jpg",
@@ -253,12 +253,12 @@
    "content/media/day03/c8.jpg",
    "content/media/day03/c9.jpg"
   ],
-  "caption": "Cómo calcular el total de una factura con IVA en Excel\n\nReto: esta factura de teclado, ratón y monitor da 523,77 €. ¿Dónde está el error? Búscalo antes de deslizar.\n\nSolución: la fórmula del total es =SUMA(D2:D6) y ese rango incluye la fila del subtotal. Resultado: los productos se suman dos veces. El total correcto es =D5+D6 (subtotal + IVA) = 286,77 €.\n\nEn el carrusel tienes dos formas de arreglarlo, cómo guardar el 21 % en una sola celda y una comprobación rápida: el total dividido entre el subtotal tiene que dar 1,21.\n\nMándaselo a quien hace las facturas en tu equipo: le ahorras un mal rato con un cliente.\n\nPractica facturas en la app: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Facturacion"
+  "caption": "Cómo calcular el total de una factura con IVA en Excel\n\nReto: esta factura de teclado, ratón y monitor da 523,77 €. ¿Dónde está el error? Búscalo antes de deslizar.\n\nSolución: la fórmula del total es =SUMA(D2:D6) y ese rango incluye la fila del subtotal. Resultado: los productos se suman dos veces. El total correcto es =D5+D6 (subtotal + IVA) = 286,77 €.\n\nEn el carrusel tienes dos formas de arreglarlo, cómo guardar el 21 % en una sola celda y una comprobación rápida: el total dividido entre el subtotal tiene que dar 1,21.\n\nMándaselo a quien hace las facturas en tu equipo: le ahorras un mal rato con un cliente.\n\nPractica facturas en la app: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Facturacion"
  },
  {
   "id": "day03-story2",
   "type": "STORY",
-  "at": "2026-11-25T15:00:00",
+  "at": "2026-11-21T15:00:00",
   "media": [
    "content/media/day03/s2.jpg"
   ]
@@ -266,17 +266,17 @@
  {
   "id": "day03-reel",
   "type": "REEL",
-  "at": "2026-11-25T20:00:00",
+  "at": "2026-11-21T20:00:00",
   "media": [
    "content/media/day03/reel.mp4"
   ],
   "cover": "content/media/day03/reel_cover.jpg",
-  "caption": "Encuentra el error en esta factura de Excel\n\nEl total da 523,77 € porque =SUMA(D2:D6) incluye el subtotal y suma los productos dos veces. Lo correcto: =D5+D6 = 286,77 €.\n\nMándaselo a quien hace las facturas. Practica en la app: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Facturacion"
+  "caption": "Encuentra el error en esta factura de Excel\n\nEl total da 523,77 € porque =SUMA(D2:D6) incluye el subtotal y suma los productos dos veces. Lo correcto: =D5+D6 = 286,77 €.\n\nMándaselo a quien hace las facturas. Practica en la app: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Facturacion"
  },
  {
   "id": "day03-story3",
   "type": "STORY",
-  "at": "2026-11-25T22:00:00",
+  "at": "2026-11-21T22:00:00",
   "media": [
    "content/media/day03/s3.jpg"
   ]
@@ -284,7 +284,7 @@
  {
   "id": "day04-story1",
   "type": "STORY",
-  "at": "2026-11-26T09:00:00",
+  "at": "2026-11-22T09:00:00",
   "media": [
    "content/media/day04/s1.jpg"
   ]
@@ -292,7 +292,7 @@
  {
   "id": "day04-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-26T13:30:00",
+  "at": "2026-11-22T13:30:00",
   "media": [
    "content/media/day04/c1.jpg",
    "content/media/day04/c2.jpg",
@@ -304,12 +304,12 @@
    "content/media/day04/c8.jpg",
    "content/media/day04/c9.jpg"
   ],
-  "caption": "Cómo sumar por categoría en Excel con SUMAR.SI\n\nAntes: filtrar la columna, sumar con la calculadora 45,20 + 18,75 + 32,10 y rezar para no saltarte ninguna fila. Después: una fórmula que suma solo los gastos de la categoría que le digas.\n\n=SUMAR.SI(A2:A7;\"Comida\";B2:B7) se lee así: busca en A2:A7, quédate con las filas que dicen Comida y suma su importe en B2:B7. Resultado: 96,05 €.\n\nEn el carrusel tienes cómo montar un resumen de todas las categorías con una sola fórmula copiada, y el detalle de «>30» frente a «>=30», que cambia el resultado.\n\nGuárdalo para tu próximo cierre de mes.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FinanzasPersonales"
+  "caption": "Cómo sumar por categoría en Excel con SUMAR.SI\n\nAntes: filtrar la columna, sumar con la calculadora 45,20 + 18,75 + 32,10 y rezar para no saltarte ninguna fila. Después: una fórmula que suma solo los gastos de la categoría que le digas.\n\n=SUMAR.SI(A2:A7;\"Comida\";B2:B7) se lee así: busca en A2:A7, quédate con las filas que dicen Comida y suma su importe en B2:B7. Resultado: 96,05 €.\n\nEn el carrusel tienes cómo montar un resumen de todas las categorías con una sola fórmula copiada, y el detalle de «>30» frente a «>=30», que cambia el resultado.\n\nGuárdalo para tu próximo cierre de mes.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FinanzasPersonales"
  },
  {
   "id": "day04-story2",
   "type": "STORY",
-  "at": "2026-11-26T15:00:00",
+  "at": "2026-11-22T15:00:00",
   "media": [
    "content/media/day04/s2.jpg"
   ]
@@ -317,17 +317,17 @@
  {
   "id": "day04-reel",
   "type": "REEL",
-  "at": "2026-11-26T20:00:00",
+  "at": "2026-11-22T20:00:00",
   "media": [
    "content/media/day04/reel.mp4"
   ],
   "cover": "content/media/day04/reel_cover.jpg",
-  "caption": "Cómo sumar gastos por categoría en Excel\n\nDeja la calculadora: =SUMAR.SI(A2:A7;\"Comida\";B2:B7) suma solo las filas de Comida. Dónde buscar, qué buscar y qué sumar.\n\nGuárdalo para tu próximo cierre. Practica gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
+  "caption": "Cómo sumar gastos por categoría en Excel\n\nDeja la calculadora: =SUMAR.SI(A2:A7;\"Comida\";B2:B7) suma solo las filas de Comida. Dónde buscar, qué buscar y qué sumar.\n\nGuárdalo para tu próximo cierre. Practica gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
  },
  {
   "id": "day04-story3",
   "type": "STORY",
-  "at": "2026-11-26T22:00:00",
+  "at": "2026-11-22T22:00:00",
   "media": [
    "content/media/day04/s3.jpg"
   ]
@@ -335,7 +335,7 @@
  {
   "id": "day05-story1",
   "type": "STORY",
-  "at": "2026-11-27T09:00:00",
+  "at": "2026-11-23T09:00:00",
   "media": [
    "content/media/day05/s1.jpg"
   ]
@@ -343,7 +343,7 @@
  {
   "id": "day05-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-27T13:30:00",
+  "at": "2026-11-23T13:30:00",
   "media": [
    "content/media/day05/c1.jpg",
    "content/media/day05/c2.jpg",
@@ -355,12 +355,12 @@
    "content/media/day05/c8.jpg",
    "content/media/day05/c9.jpg"
   ],
-  "caption": "Cómo calcular horas trabajadas en Excel (también el turno de noche)\n\nLuis entra a las 22:00 y sale a las 06:00. Restas salida menos entrada, multiplicas por 24… y Excel dice que trabajó −16 horas. Para Excel, las 06:00 son menores que las 22:00: no sabe que la salida es del día siguiente.\n\nLa fórmula que lo arregla: =RESIDUO(C2-B2;1)*24. RESIDUO se queda con la parte del día y por 24 lo pasas a horas: 8 h, como debe ser.\n\nEn el carrusel tienes la tabla completa, el plan B en formato hora (=C2-B2+(C2<B2) con formato [h]:mm) y por qué 7,75 h son 7 h 45 min, no 7 h 75 min.\n\nMándaselo a quien hace los turnos o las nóminas en tu empresa.\n\nPractica en la app: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #RecursosHumanos"
+  "caption": "Cómo calcular horas trabajadas en Excel (también el turno de noche)\n\nLuis entra a las 22:00 y sale a las 06:00. Restas salida menos entrada, multiplicas por 24… y Excel dice que trabajó −16 horas. Para Excel, las 06:00 son menores que las 22:00: no sabe que la salida es del día siguiente.\n\nLa fórmula que lo arregla: =RESIDUO(C2-B2;1)*24. RESIDUO se queda con la parte del día y por 24 lo pasas a horas: 8 h, como debe ser.\n\nEn el carrusel tienes la tabla completa, el plan B en formato hora (=C2-B2+(C2<B2) con formato [h]:mm) y por qué 7,75 h son 7 h 45 min, no 7 h 75 min.\n\nMándaselo a quien hace los turnos o las nóminas en tu empresa.\n\nPractica en la app: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #RecursosHumanos"
  },
  {
   "id": "day05-story2",
   "type": "STORY",
-  "at": "2026-11-27T15:00:00",
+  "at": "2026-11-23T15:00:00",
   "media": [
    "content/media/day05/s2.jpg"
   ]
@@ -368,27 +368,27 @@
  {
   "id": "app-demo02",
   "type": "REEL",
-  "at": "2026-11-27T17:00:00",
+  "at": "2026-11-23T17:00:00",
   "media": [
    "content/media/app/demo02.mp4"
   ],
   "cover_ms": 600,
-  "caption": "Aprender Excel equivocándote sin miedo.\n\nEn la app, si tu fórmula falla te dice qué calculó y qué esperaba. Y si te atascas, pides una pista por niveles.\n\nPruébalo gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #FormulasExcel"
+  "caption": "Aprender Excel equivocándote sin miedo.\n\nEn la app, si tu fórmula falla te dice qué calculó y qué esperaba. Y si te atascas, pides una pista por niveles.\n\nPruébalo gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #FormulasExcel"
  },
  {
   "id": "day05-reel",
   "type": "REEL",
-  "at": "2026-11-27T20:00:00",
+  "at": "2026-11-23T20:00:00",
   "media": [
    "content/media/day05/reel.mp4"
   ],
   "cover": "content/media/day05/reel_cover.jpg",
-  "caption": "Cómo calcular horas trabajadas en Excel con turno de noche\n\nSi el turno acaba después de medianoche, (C2-B2)*24 da negativo. Usa =RESIDUO(C2-B2;1)*24: de 22:00 a 06:00 da 8 horas.\n\nMándaselo a quien hace los turnos. Practica en la app: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #RecursosHumanos"
+  "caption": "Cómo calcular horas trabajadas en Excel con turno de noche\n\nSi el turno acaba después de medianoche, (C2-B2)*24 da negativo. Usa =RESIDUO(C2-B2;1)*24: de 22:00 a 06:00 da 8 horas.\n\nMándaselo a quien hace los turnos. Practica en la app: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #RecursosHumanos"
  },
  {
   "id": "day05-story3",
   "type": "STORY",
-  "at": "2026-11-27T22:00:00",
+  "at": "2026-11-23T22:00:00",
   "media": [
    "content/media/day05/s3.jpg"
   ]
@@ -396,7 +396,7 @@
  {
   "id": "day06-story1",
   "type": "STORY",
-  "at": "2026-11-28T09:00:00",
+  "at": "2026-11-24T09:00:00",
   "media": [
    "content/media/day06/s1.jpg"
   ]
@@ -404,7 +404,7 @@
  {
   "id": "day06-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-28T13:30:00",
+  "at": "2026-11-24T13:30:00",
   "media": [
    "content/media/day06/c1.jpg",
    "content/media/day06/c2.jpg",
@@ -415,12 +415,12 @@
    "content/media/day06/c7.jpg",
    "content/media/day06/c8.jpg"
   ],
-  "caption": "Diferencia entre CONTAR, CONTARA y CONTAR.BLANCO en Excel\n\nMisma columna de pagos, tres fórmulas y tres resultados: 3, 4 y 2. Ninguna está mal; cada una cuenta una cosa distinta.\n\nCONTAR solo cuenta números (y el 0 es un número). CONTARA cuenta todo lo que no está vacío, también el texto como «pendiente». CONTAR.BLANCO cuenta las celdas vacías.\n\n¿Y si lo que quieres saber es cuántos clientes han pagado de verdad? Ninguna de las tres: usa =CONTAR.SI(B2:B7;\">0\").\n\nEn el carrusel tienes cada fórmula con su resultado y una chuleta con la trampa de los espacios, que parecen celdas vacías y no lo son.\n\nGuárdalo para la próxima vez que dudes cuál usar.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #AnalisisDeDatos"
+  "caption": "Diferencia entre CONTAR, CONTARA y CONTAR.BLANCO en Excel\n\nMisma columna de pagos, tres fórmulas y tres resultados: 3, 4 y 2. Ninguna está mal; cada una cuenta una cosa distinta.\n\nCONTAR solo cuenta números (y el 0 es un número). CONTARA cuenta todo lo que no está vacío, también el texto como «pendiente». CONTAR.BLANCO cuenta las celdas vacías.\n\n¿Y si lo que quieres saber es cuántos clientes han pagado de verdad? Ninguna de las tres: usa =CONTAR.SI(B2:B7;\">0\").\n\nEn el carrusel tienes cada fórmula con su resultado y una chuleta con la trampa de los espacios, que parecen celdas vacías y no lo son.\n\nGuárdalo para la próxima vez que dudes cuál usar.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #AnalisisDeDatos"
  },
  {
   "id": "day06-story2",
   "type": "STORY",
-  "at": "2026-11-28T15:00:00",
+  "at": "2026-11-24T15:00:00",
   "media": [
    "content/media/day06/s2.jpg"
   ]
@@ -428,17 +428,17 @@
  {
   "id": "day06-reel",
   "type": "REEL",
-  "at": "2026-11-28T20:00:00",
+  "at": "2026-11-24T20:00:00",
   "media": [
    "content/media/day06/reel.mp4"
   ],
   "cover": "content/media/day06/reel_cover.jpg",
-  "caption": "CONTAR vs CONTARA vs CONTAR.BLANCO en Excel\n\nCONTAR: solo números. CONTARA: todo lo que no está vacío. CONTAR.BLANCO: las vacías. ¿Cuántos pagaron? =CONTAR.SI(B2:B7;\">0\").\n\nGuárdalo para cuando dudes. Practica gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
+  "caption": "CONTAR vs CONTARA vs CONTAR.BLANCO en Excel\n\nCONTAR: solo números. CONTARA: todo lo que no está vacío. CONTAR.BLANCO: las vacías. ¿Cuántos pagaron? =CONTAR.SI(B2:B7;\">0\").\n\nGuárdalo para cuando dudes. Practica gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
  },
  {
   "id": "day06-story3",
   "type": "STORY",
-  "at": "2026-11-28T22:00:00",
+  "at": "2026-11-24T22:00:00",
   "media": [
    "content/media/day06/s3.jpg"
   ]
@@ -446,7 +446,7 @@
  {
   "id": "day07-story1",
   "type": "STORY",
-  "at": "2026-11-29T09:00:00",
+  "at": "2026-11-25T09:00:00",
   "media": [
    "content/media/day07/s1.jpg"
   ]
@@ -454,7 +454,7 @@
  {
   "id": "inside-inside01",
   "type": "CAROUSEL",
-  "at": "2026-11-29T11:00:00",
+  "at": "2026-11-25T11:00:00",
   "media": [
    "content/media/inside/inside01_c1.jpg",
    "content/media/inside/inside01_c2.jpg",
@@ -464,12 +464,12 @@
    "content/media/inside/inside01_c6.jpg",
    "content/media/inside/inside01_c7.jpg"
   ],
-  "caption": "Así es Aprende Excel Jugando por dentro: una app en español para aprender Excel resolviendo misiones de trabajo reales.\n\nPrimero te explica la fórmula con un ejemplo. Luego la escribes tú en una planilla y la app la corrige al momento. Si fallas, te dice por qué. Si te atascas, pides una pista. Y cada acierto suma XP y monedas.\n\nEl primer distrito es gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #TrucosExcel"
+  "caption": "Así es Aprende Excel Jugando por dentro: una app en español para aprender Excel resolviendo misiones de trabajo reales.\n\nPrimero te explica la fórmula con un ejemplo. Luego la escribes tú en una planilla y la app la corrige al momento. Si fallas, te dice por qué. Si te atascas, pides una pista. Y cada acierto suma XP y monedas.\n\nEl primer distrito es gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #TrucosExcel"
  },
  {
   "id": "day07-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-29T13:30:00",
+  "at": "2026-11-25T13:30:00",
   "media": [
    "content/media/day07/c1.jpg",
    "content/media/day07/c2.jpg",
@@ -481,12 +481,12 @@
    "content/media/day07/c8.jpg",
    "content/media/day07/c9.jpg"
   ],
-  "caption": "Preguntas de Excel en una entrevista de trabajo (con respuestas)\n\nSi tu CV dice «Excel», en la entrevista te lo van a comprobar. Y no suelen preguntar lo más raro, sino lo básico bien explicado.\n\n1. ¿Qué diferencia hay entre A1 y $A$1? A1 se mueve al copiar la fórmula; $A$1 se queda fija (se cambia con F4).\n2. ¿Por qué BUSCARV termina en FALSO? Porque busca la coincidencia exacta. Sin FALSO, busca una aproximada y puede devolver un dato equivocado sin avisar.\n3. ¿Cuántas ventas superan 1.000 €? =CONTAR.SI(B2:B7;\">1000\"). Ojo: los 1.000 € justos no cuentan.\n\nEn el carrusel tienes cada respuesta explicada y una chuleta para repasar antes de la entrevista.\n\nMándaselo a quien tiene una entrevista esta semana.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #EntrevistaDeTrabajo"
+  "caption": "Preguntas de Excel en una entrevista de trabajo (con respuestas)\n\nSi tu CV dice «Excel», en la entrevista te lo van a comprobar. Y no suelen preguntar lo más raro, sino lo básico bien explicado.\n\n1. ¿Qué diferencia hay entre A1 y $A$1? A1 se mueve al copiar la fórmula; $A$1 se queda fija (se cambia con F4).\n2. ¿Por qué BUSCARV termina en FALSO? Porque busca la coincidencia exacta. Sin FALSO, busca una aproximada y puede devolver un dato equivocado sin avisar.\n3. ¿Cuántas ventas superan 1.000 €? =CONTAR.SI(B2:B7;\">1000\"). Ojo: los 1.000 € justos no cuentan.\n\nEn el carrusel tienes cada respuesta explicada y una chuleta para repasar antes de la entrevista.\n\nMándaselo a quien tiene una entrevista esta semana.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #EntrevistaDeTrabajo"
  },
  {
   "id": "day07-story2",
   "type": "STORY",
-  "at": "2026-11-29T15:00:00",
+  "at": "2026-11-25T15:00:00",
   "media": [
    "content/media/day07/s2.jpg"
   ]
@@ -494,17 +494,17 @@
  {
   "id": "day07-reel",
   "type": "REEL",
-  "at": "2026-11-29T20:00:00",
+  "at": "2026-11-25T20:00:00",
   "media": [
    "content/media/day07/reel.mp4"
   ],
   "cover": "content/media/day07/reel_cover.jpg",
-  "caption": "3 preguntas de Excel que te hacen en una entrevista\n\n¿A1 o $A$1? ¿Por qué BUSCARV termina en FALSO? ¿Cuántas ventas superan 1.000 €? Si dudaste en alguna, mira el carrusel de hoy: están todas explicadas.\n\nMándaselo a quien tiene entrevista. Prepárate en la app: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #ExcelEnEspañol #FormulasExcel #EntrevistaDeTrabajo"
+  "caption": "3 preguntas de Excel que te hacen en una entrevista\n\n¿A1 o $A$1? ¿Por qué BUSCARV termina en FALSO? ¿Cuántas ventas superan 1.000 €? Si dudaste en alguna, mira el carrusel de hoy: están todas explicadas.\n\nMándaselo a quien tiene entrevista. Prepárate en la app: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #ExcelEnEspañol #FormulasExcel #EntrevistaDeTrabajo"
  },
  {
   "id": "day07-story3",
   "type": "STORY",
-  "at": "2026-11-29T22:00:00",
+  "at": "2026-11-25T22:00:00",
   "media": [
    "content/media/day07/s3.jpg"
   ]
@@ -512,7 +512,7 @@
  {
   "id": "day08-story1",
   "type": "STORY",
-  "at": "2026-11-30T09:00:00",
+  "at": "2026-11-26T09:00:00",
   "media": [
    "content/media/day08/s1.jpg"
   ]
@@ -520,7 +520,7 @@
  {
   "id": "day08-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-11-30T13:30:00",
+  "at": "2026-11-26T13:30:00",
   "media": [
    "content/media/day08/c1.jpg",
    "content/media/day08/c2.jpg",
@@ -532,12 +532,12 @@
    "content/media/day08/c8.jpg",
    "content/media/day08/c9.jpg"
   ],
-  "caption": "Por qué BUSCARV da ＃N/D si el dato existe (espacios en Excel)\n\nBuscas el código A-102, lo ves en la columna A… y BUSCARV devuelve ＃N/D. Casi siempre el culpable es invisible: un espacio al final del código, que suele colarse al copiar datos de otro programa.\n\nCómo detectarlo: =LARGO(A3). Si «A-102» da 6 caracteres en vez de 5, sobra algo. Cómo arreglarlo: =ESPACIOS(A2) en una columna auxiliar, pegar como valores encima de la columna original y listo.\n\nEn el carrusel tienes el paso a paso, la versión de una sola fórmula con BUSCARX (requiere Excel 365 o 2021) y el caso de los datos copiados de una web, que ESPACIOS no limpia.\n\nGuárdalo para la próxima vez que veas un ＃N/D sin sentido.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #BUSCARV"
+  "caption": "Por qué BUSCARV da ＃N/D si el dato existe (espacios en Excel)\n\nBuscas el código A-102, lo ves en la columna A… y BUSCARV devuelve ＃N/D. Casi siempre el culpable es invisible: un espacio al final del código, que suele colarse al copiar datos de otro programa.\n\nCómo detectarlo: =LARGO(A3). Si «A-102» da 6 caracteres en vez de 5, sobra algo. Cómo arreglarlo: =ESPACIOS(A2) en una columna auxiliar, pegar como valores encima de la columna original y listo.\n\nEn el carrusel tienes el paso a paso, la versión de una sola fórmula con BUSCARX (requiere Excel 365 o 2021) y el caso de los datos copiados de una web, que ESPACIOS no limpia.\n\nGuárdalo para la próxima vez que veas un ＃N/D sin sentido.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #BUSCARV"
  },
  {
   "id": "day08-story2",
   "type": "STORY",
-  "at": "2026-11-30T15:00:00",
+  "at": "2026-11-26T15:00:00",
   "media": [
    "content/media/day08/s2.jpg"
   ]
@@ -545,17 +545,17 @@
  {
   "id": "day08-reel",
   "type": "REEL",
-  "at": "2026-11-30T20:00:00",
+  "at": "2026-11-26T20:00:00",
   "media": [
    "content/media/day08/reel.mp4"
   ],
   "cover": "content/media/day08/reel_cover.jpg",
-  "caption": "BUSCARV da ＃N/D y el dato existe: espacios invisibles en Excel\n\nUn espacio al final del código basta para romper BUSCARV. Detéctalo con =LARGO(A3) y límpialo con =ESPACIOS(A2), pegando como valores.\n\nGuárdalo para tu próximo ＃N/D. Practica gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #BUSCARV"
+  "caption": "BUSCARV da ＃N/D y el dato existe: espacios invisibles en Excel\n\nUn espacio al final del código basta para romper BUSCARV. Detéctalo con =LARGO(A3) y límpialo con =ESPACIOS(A2), pegando como valores.\n\nGuárdalo para tu próximo ＃N/D. Practica gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #BUSCARV"
  },
  {
   "id": "day08-story3",
   "type": "STORY",
-  "at": "2026-11-30T22:00:00",
+  "at": "2026-11-26T22:00:00",
   "media": [
    "content/media/day08/s3.jpg"
   ]
@@ -563,7 +563,7 @@
  {
   "id": "day09-story1",
   "type": "STORY",
-  "at": "2026-12-01T09:00:00",
+  "at": "2026-11-27T09:00:00",
   "media": [
    "content/media/day09/s1.jpg"
   ]
@@ -571,7 +571,7 @@
  {
   "id": "day09-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-01T13:30:00",
+  "at": "2026-11-27T13:30:00",
   "media": [
    "content/media/day09/c1.jpg",
    "content/media/day09/c2.jpg",
@@ -583,12 +583,12 @@
    "content/media/day09/c8.jpg",
    "content/media/day09/c9.jpg"
   ],
-  "caption": "Atajos de teclado de Excel que funcionan en cualquier idioma\n\nMuchos atajos cambian según el idioma de tu Excel porque usan letras. Estos cinco no: solo usan F2, F4, Ctrl, Mayús, las flechas e Inicio.\n\nF2: editas la celda sin doble clic.\nF4: fijas la referencia ($B$1) mientras escribes una fórmula.\nCtrl + Flecha: saltas al final de los datos.\nCtrl + Mayús + Flecha: seleccionas hasta el final de los datos.\nCtrl + Inicio: vuelves al principio de la hoja.\n\nTruco extra: si Ctrl + Flecha se para antes de tiempo, hay una celda vacía en medio de tus datos.\n\nSon atajos de Windows; en Mac algunas teclas cambian.\n\nMándaselo a quien todavía baja con la rueda del ratón.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel #Productividad"
+  "caption": "Atajos de teclado de Excel que funcionan en cualquier idioma\n\nMuchos atajos cambian según el idioma de tu Excel porque usan letras. Estos cinco no: solo usan F2, F4, Ctrl, Mayús, las flechas e Inicio.\n\nF2: editas la celda sin doble clic.\nF4: fijas la referencia ($B$1) mientras escribes una fórmula.\nCtrl + Flecha: saltas al final de los datos.\nCtrl + Mayús + Flecha: seleccionas hasta el final de los datos.\nCtrl + Inicio: vuelves al principio de la hoja.\n\nTruco extra: si Ctrl + Flecha se para antes de tiempo, hay una celda vacía en medio de tus datos.\n\nSon atajos de Windows; en Mac algunas teclas cambian.\n\nMándaselo a quien todavía baja con la rueda del ratón.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel #Productividad"
  },
  {
   "id": "day09-story2",
   "type": "STORY",
-  "at": "2026-12-01T15:00:00",
+  "at": "2026-11-27T15:00:00",
   "media": [
    "content/media/day09/s2.jpg"
   ]
@@ -596,27 +596,27 @@
  {
   "id": "app-demo03",
   "type": "REEL",
-  "at": "2026-12-01T17:00:00",
+  "at": "2026-11-27T17:00:00",
   "media": [
    "content/media/app/demo03.mp4"
   ],
   "cover_ms": 600,
-  "caption": "Tu primera misión de Excel en 20 segundos: explicación, planilla real, escribes =SUMA y la app te valida al momento.\n\nEl Distrito 1 es gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #FormulaSUMA #CursoDeExcel"
+  "caption": "Tu primera misión de Excel en 20 segundos: explicación, planilla real, escribes =SUMA y la app te valida al momento.\n\nEl Distrito 1 es gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #FormulaSUMA #CursoDeExcel"
  },
  {
   "id": "day09-reel",
   "type": "REEL",
-  "at": "2026-12-01T20:00:00",
+  "at": "2026-11-27T20:00:00",
   "media": [
    "content/media/day09/reel.mp4"
   ],
   "cover": "content/media/day09/reel_cover.jpg",
-  "caption": "5 atajos de Excel que funcionan en cualquier idioma\n\nF2, F4, Ctrl + Flecha, Ctrl + Mayús + Flecha y Ctrl + Inicio. No usan letras, así que valen en Excel en español o en inglés (teclado de Windows).\n\nMándaselo a quien todavía baja con la rueda del ratón. Practica fórmulas gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel"
+  "caption": "5 atajos de Excel que funcionan en cualquier idioma\n\nF2, F4, Ctrl + Flecha, Ctrl + Mayús + Flecha y Ctrl + Inicio. No usan letras, así que valen en Excel en español o en inglés (teclado de Windows).\n\nMándaselo a quien todavía baja con la rueda del ratón. Practica fórmulas gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel"
  },
  {
   "id": "day09-story3",
   "type": "STORY",
-  "at": "2026-12-01T22:00:00",
+  "at": "2026-11-27T22:00:00",
   "media": [
    "content/media/day09/s3.jpg"
   ]
@@ -624,7 +624,7 @@
  {
   "id": "day10-story1",
   "type": "STORY",
-  "at": "2026-12-02T09:00:00",
+  "at": "2026-11-28T09:00:00",
   "media": [
    "content/media/day10/s1.jpg"
   ]
@@ -632,7 +632,7 @@
  {
   "id": "day10-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-02T13:30:00",
+  "at": "2026-11-28T13:30:00",
   "media": [
    "content/media/day10/c1.jpg",
    "content/media/day10/c2.jpg",
@@ -644,12 +644,12 @@
    "content/media/day10/c8.jpg",
    "content/media/day10/c9.jpg"
   ],
-  "caption": "Cómo usar la función SI en Excel con mayor o igual\n\nReto: si B2 vale 50, ¿qué devuelve =SI(B2>=50;\"Aprobado\";\"Pendiente\")? Devuelve Aprobado, porque >= significa mayor o igual: el 50 justo entra. Con > devolvería Pendiente. Antes de escribir la fórmula, lee bien el objetivo: «llegar a 50» es >=; «superar 50» es >.\n\nY la trampa gorda: si el número está guardado como texto, la comparación falla sin avisar. En Excel un texto siempre se considera mayor que cualquier número, así que un «30» escrito como texto sale Aprobado.\n\nEn el carrusel tienes cómo detectarlo con ESNUMERO y cómo arreglarlo en dos clics.\n\nGuárdalo para tu próximo informe con SI.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FuncionSI"
+  "caption": "Cómo usar la función SI en Excel con mayor o igual\n\nReto: si B2 vale 50, ¿qué devuelve =SI(B2>=50;\"Aprobado\";\"Pendiente\")? Devuelve Aprobado, porque >= significa mayor o igual: el 50 justo entra. Con > devolvería Pendiente. Antes de escribir la fórmula, lee bien el objetivo: «llegar a 50» es >=; «superar 50» es >.\n\nY la trampa gorda: si el número está guardado como texto, la comparación falla sin avisar. En Excel un texto siempre se considera mayor que cualquier número, así que un «30» escrito como texto sale Aprobado.\n\nEn el carrusel tienes cómo detectarlo con ESNUMERO y cómo arreglarlo en dos clics.\n\nGuárdalo para tu próximo informe con SI.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FuncionSI"
  },
  {
   "id": "day10-story2",
   "type": "STORY",
-  "at": "2026-12-02T15:00:00",
+  "at": "2026-11-28T15:00:00",
   "media": [
    "content/media/day10/s2.jpg"
   ]
@@ -657,17 +657,17 @@
  {
   "id": "day10-reel",
   "type": "REEL",
-  "at": "2026-12-02T20:00:00",
+  "at": "2026-11-28T20:00:00",
   "media": [
    "content/media/day10/reel.mp4"
   ],
   "cover": "content/media/day10/reel_cover.jpg",
-  "caption": "Función SI en Excel: ¿qué devuelve con el caso límite?\n\nSi B2 = 50, =SI(B2>=50;\"Aprobado\";\"Pendiente\") devuelve Aprobado: >= incluye el 50. Con > devolvería Pendiente. Y ojo: un número guardado como texto siempre pasa la prueba.\n\nGuárdalo para tu próximo SI. Practica gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FuncionSI"
+  "caption": "Función SI en Excel: ¿qué devuelve con el caso límite?\n\nSi B2 = 50, =SI(B2>=50;\"Aprobado\";\"Pendiente\") devuelve Aprobado: >= incluye el 50. Con > devolvería Pendiente. Y ojo: un número guardado como texto siempre pasa la prueba.\n\nGuárdalo para tu próximo SI. Practica gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FuncionSI"
  },
  {
   "id": "day10-story3",
   "type": "STORY",
-  "at": "2026-12-02T22:00:00",
+  "at": "2026-11-28T22:00:00",
   "media": [
    "content/media/day10/s3.jpg"
   ]
@@ -675,7 +675,7 @@
  {
   "id": "day11-story1",
   "type": "STORY",
-  "at": "2026-12-03T09:00:00",
+  "at": "2026-11-29T09:00:00",
   "media": [
    "content/media/day11/s1.jpg"
   ]
@@ -683,7 +683,7 @@
  {
   "id": "day11-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-03T13:30:00",
+  "at": "2026-11-29T13:30:00",
   "media": [
    "content/media/day11/c1.jpg",
    "content/media/day11/c2.jpg",
@@ -695,12 +695,12 @@
    "content/media/day11/c8.jpg",
    "content/media/day11/c9.jpg"
   ],
-  "caption": "Cómo separar nombre y apellido en Excel\n\nTe pasan una lista con «Laura Gómez» en una sola celda y la necesitas en dos columnas. No lo hagas a mano: con dos fórmulas lo resuelves y lo arrastras a toda la lista.\n\n1️⃣ HALLAR(\" \";A2) te dice en qué posición está el espacio.\n2️⃣ Nombre: =IZQUIERDA(A2;HALLAR(\" \";A2)-1)\n3️⃣ Apellido: =EXTRAE(A2;HALLAR(\" \";A2)+1;LARGO(A2))\n\nOjo con los nombres compuestos («Ana Belén Torres»): las fórmulas cortan en el primer espacio, así que revísalos. Si hay espacios dobles, límpialos antes con ESPACIOS. En Excel 365 también tienes TEXTOANTES y TEXTODESPUES.\n\n📤 Mándaselo a quien todavía separa nombres a mano.\n\nEmpieza gratis: las 10 misiones del Distrito 1 son gratis con tu cuenta, y la limpieza de datos te espera en el Distrito 3 · Datos Sucios → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #LimpiezaDeDatos"
+  "caption": "Cómo separar nombre y apellido en Excel\n\nTe pasan una lista con «Laura Gómez» en una sola celda y la necesitas en dos columnas. No lo hagas a mano: con dos fórmulas lo resuelves y lo arrastras a toda la lista.\n\n1️⃣ HALLAR(\" \";A2) te dice en qué posición está el espacio.\n2️⃣ Nombre: =IZQUIERDA(A2;HALLAR(\" \";A2)-1)\n3️⃣ Apellido: =EXTRAE(A2;HALLAR(\" \";A2)+1;LARGO(A2))\n\nOjo con los nombres compuestos («Ana Belén Torres»): las fórmulas cortan en el primer espacio, así que revísalos. Si hay espacios dobles, límpialos antes con ESPACIOS. En Excel 365 también tienes TEXTOANTES y TEXTODESPUES.\n\n📤 Mándaselo a quien todavía separa nombres a mano.\n\nEmpieza gratis: las 10 misiones del Distrito 1 son gratis con tu cuenta, y la limpieza de datos te espera en el Distrito 3 · Datos Sucios → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #LimpiezaDeDatos"
  },
  {
   "id": "day11-story2",
   "type": "STORY",
-  "at": "2026-12-03T15:00:00",
+  "at": "2026-11-29T15:00:00",
   "media": [
    "content/media/day11/s2.jpg"
   ]
@@ -708,17 +708,17 @@
  {
   "id": "day11-reel",
   "type": "REEL",
-  "at": "2026-12-03T20:00:00",
+  "at": "2026-11-29T20:00:00",
   "media": [
    "content/media/day11/reel.mp4"
   ],
   "cover": "content/media/day11/reel_cover.jpg",
-  "caption": "Cómo separar nombre y apellido en Excel en 20 segundos.\n\nIZQUIERDA + HALLAR para el nombre, EXTRAE para el apellido. Lo escribes una vez y arrastras.\n\n📤 Mándaselo a quien todavía lo hace fila a fila. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
+  "caption": "Cómo separar nombre y apellido en Excel en 20 segundos.\n\nIZQUIERDA + HALLAR para el nombre, EXTRAE para el apellido. Lo escribes una vez y arrastras.\n\n📤 Mándaselo a quien todavía lo hace fila a fila. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel"
  },
  {
   "id": "day11-story3",
   "type": "STORY",
-  "at": "2026-12-03T22:00:00",
+  "at": "2026-11-29T22:00:00",
   "media": [
    "content/media/day11/s3.jpg"
   ]
@@ -726,7 +726,7 @@
  {
   "id": "day12-story1",
   "type": "STORY",
-  "at": "2026-12-04T09:00:00",
+  "at": "2026-11-30T09:00:00",
   "media": [
    "content/media/day12/s1.jpg"
   ]
@@ -734,7 +734,7 @@
  {
   "id": "day12-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-04T13:30:00",
+  "at": "2026-11-30T13:30:00",
   "media": [
    "content/media/day12/c1.jpg",
    "content/media/day12/c2.jpg",
@@ -746,12 +746,12 @@
    "content/media/day12/c8.jpg",
    "content/media/day12/c9.jpg"
   ],
-  "caption": "Cómo usar SI con Y y O en Excel (comisiones de ventas)\n\nTu jefa te pasa la regla: «Bono de 100 € si vendes al menos 5.000 € y traes un cliente nuevo». Son dos condiciones a la vez, así que necesitas Y dentro de SI:\n\n=SI(Y(B2>=5000;C2=\"Sí\");100;0)\n\n✅ Y → cobran solo quienes cumplen las dos.\n✅ O → cobran quienes cumplen al menos una:\n=SI(O(B2>=5000;C2=\"Sí\");100;0)\n\nCon los mismos 5 vendedores, Y reparte 2 bonos (200 €) y O reparte 4 (400 €). Una letra cambia el total.\n\nDos detalles que dejan a alguien sin bono: «al menos 5.000» es >=5000 (no >5000) y el texto va siempre entre comillas.\n\n🔖 Guárdalo para tu próximo cierre de comisiones.\n\nEmpieza gratis en el Distrito 1 y llega a las misiones de SI del Distrito 4 · Ventas que no Cuadran → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FuncionSI"
+  "caption": "Cómo usar SI con Y y O en Excel (comisiones de ventas)\n\nTu jefa te pasa la regla: «Bono de 100 € si vendes al menos 5.000 € y traes un cliente nuevo». Son dos condiciones a la vez, así que necesitas Y dentro de SI:\n\n=SI(Y(B2>=5000;C2=\"Sí\");100;0)\n\n✅ Y → cobran solo quienes cumplen las dos.\n✅ O → cobran quienes cumplen al menos una:\n=SI(O(B2>=5000;C2=\"Sí\");100;0)\n\nCon los mismos 5 vendedores, Y reparte 2 bonos (200 €) y O reparte 4 (400 €). Una letra cambia el total.\n\nDos detalles que dejan a alguien sin bono: «al menos 5.000» es >=5000 (no >5000) y el texto va siempre entre comillas.\n\n🔖 Guárdalo para tu próximo cierre de comisiones.\n\nEmpieza gratis en el Distrito 1 y llega a las misiones de SI del Distrito 4 · Ventas que no Cuadran → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FuncionSI"
  },
  {
   "id": "day12-story2",
   "type": "STORY",
-  "at": "2026-12-04T15:00:00",
+  "at": "2026-11-30T15:00:00",
   "media": [
    "content/media/day12/s2.jpg"
   ]
@@ -759,27 +759,27 @@
  {
   "id": "app-demo04",
   "type": "REEL",
-  "at": "2026-12-04T17:00:00",
+  "at": "2026-11-30T17:00:00",
   "media": [
    "content/media/app/demo04.mp4"
   ],
   "cover_ms": 600,
-  "caption": "Una ciudad. Diez distritos. Cada uno, un bloque de Excel: SUMA, SUMAR.SI, limpieza de datos, SI, BUSCARV, inventario, nóminas…\n\nEmpieza por el primero, gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Gamificacion"
+  "caption": "Una ciudad. Diez distritos. Cada uno, un bloque de Excel: SUMA, SUMAR.SI, limpieza de datos, SI, BUSCARV, inventario, nóminas…\n\nEmpieza por el primero, gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Gamificacion"
  },
  {
   "id": "day12-reel",
   "type": "REEL",
-  "at": "2026-12-04T20:00:00",
+  "at": "2026-11-30T20:00:00",
   "media": [
    "content/media/day12/reel.mp4"
   ],
   "cover": "content/media/day12/reel_cover.jpg",
-  "caption": "Cómo usar SI con Y y O en Excel.\n\nMismos vendedores, misma regla… y el total de bonos pasa de 200 € a 400 € según uses Y u O. Y = se cumplen todas. O = basta con una.\n\n🔖 Guárdalo para tu próximo cierre de comisiones. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FuncionSI"
+  "caption": "Cómo usar SI con Y y O en Excel.\n\nMismos vendedores, misma regla… y el total de bonos pasa de 200 € a 400 € según uses Y u O. Y = se cumplen todas. O = basta con una.\n\n🔖 Guárdalo para tu próximo cierre de comisiones. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FuncionSI"
  },
  {
   "id": "day12-story3",
   "type": "STORY",
-  "at": "2026-12-04T22:00:00",
+  "at": "2026-11-30T22:00:00",
   "media": [
    "content/media/day12/s3.jpg"
   ]
@@ -787,7 +787,7 @@
  {
   "id": "day13-story1",
   "type": "STORY",
-  "at": "2026-12-05T09:00:00",
+  "at": "2026-12-01T09:00:00",
   "media": [
    "content/media/day13/s1.jpg"
   ]
@@ -795,7 +795,7 @@
  {
   "id": "day13-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-05T13:30:00",
+  "at": "2026-12-01T13:30:00",
   "media": [
    "content/media/day13/c1.jpg",
    "content/media/day13/c2.jpg",
@@ -807,12 +807,12 @@
    "content/media/day13/c8.jpg",
    "content/media/day13/c9.jpg"
   ],
-  "caption": "BUSCARV vs BUSCARX: diferencias y cuál usar en Excel\n\nLas dos buscan el precio de un código y devuelven lo mismo: 8,75 €. La diferencia está en cómo se lo pides y en qué versión de Excel funciona.\n\n🔹 BUSCARV(F2;A2:C6;3;FALSO): funciona en cualquier versión, pero cuenta columnas, solo busca hacia la derecha y necesita FALSO para la coincidencia exacta.\n🔹 BUSCARX(F2;A2:A6;C2:C6): exacta por defecto, busca a la izquierda, no se rompe si insertas columnas y tiene mensaje si no encuentra. Requiere Excel 365 o Excel 2021.\n\n¿Cuál usar en 2026? Si todo tu equipo tiene 365 o 2021, BUSCARX. Si compartes archivos con versiones antiguas, BUSCARV con FALSO.\n\n📤 Mándaselo a quien sigue contando columnas.\n\nEmpieza gratis en el Distrito 1; las dos búsquedas te esperan en el Distrito 6 · La Conciliación → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #BUSCARV"
+  "caption": "BUSCARV vs BUSCARX: diferencias y cuál usar en Excel\n\nLas dos buscan el precio de un código y devuelven lo mismo: 8,75 €. La diferencia está en cómo se lo pides y en qué versión de Excel funciona.\n\n🔹 BUSCARV(F2;A2:C6;3;FALSO): funciona en cualquier versión, pero cuenta columnas, solo busca hacia la derecha y necesita FALSO para la coincidencia exacta.\n🔹 BUSCARX(F2;A2:A6;C2:C6): exacta por defecto, busca a la izquierda, no se rompe si insertas columnas y tiene mensaje si no encuentra. Requiere Excel 365 o Excel 2021.\n\n¿Cuál usar en 2026? Si todo tu equipo tiene 365 o 2021, BUSCARX. Si compartes archivos con versiones antiguas, BUSCARV con FALSO.\n\n📤 Mándaselo a quien sigue contando columnas.\n\nEmpieza gratis en el Distrito 1; las dos búsquedas te esperan en el Distrito 6 · La Conciliación → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #BUSCARV"
  },
  {
   "id": "day13-story2",
   "type": "STORY",
-  "at": "2026-12-05T15:00:00",
+  "at": "2026-12-01T15:00:00",
   "media": [
    "content/media/day13/s2.jpg"
   ]
@@ -820,17 +820,17 @@
  {
   "id": "day13-reel",
   "type": "REEL",
-  "at": "2026-12-05T20:00:00",
+  "at": "2026-12-01T20:00:00",
   "media": [
    "content/media/day13/reel.mp4"
   ],
   "cover": "content/media/day13/reel_cover.jpg",
-  "caption": "BUSCARV vs BUSCARX en Excel: mismo resultado, distinta forma.\n\nBUSCARV funciona en todas las versiones pero cuenta columnas. BUSCARX (Excel 365 o 2021) busca a la izquierda, es exacta por defecto y no se rompe al insertar columnas.\n\n📤 Mándaselo a quien sigue contando columnas. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #BUSCARV"
+  "caption": "BUSCARV vs BUSCARX en Excel: mismo resultado, distinta forma.\n\nBUSCARV funciona en todas las versiones pero cuenta columnas. BUSCARX (Excel 365 o 2021) busca a la izquierda, es exacta por defecto y no se rompe al insertar columnas.\n\n📤 Mándaselo a quien sigue contando columnas. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #BUSCARV"
  },
  {
   "id": "day13-story3",
   "type": "STORY",
-  "at": "2026-12-05T22:00:00",
+  "at": "2026-12-01T22:00:00",
   "media": [
    "content/media/day13/s3.jpg"
   ]
@@ -838,7 +838,7 @@
  {
   "id": "day14-story1",
   "type": "STORY",
-  "at": "2026-12-06T09:00:00",
+  "at": "2026-12-02T09:00:00",
   "media": [
    "content/media/day14/s1.jpg"
   ]
@@ -846,7 +846,7 @@
  {
   "id": "inside-inside02",
   "type": "CAROUSEL",
-  "at": "2026-12-06T11:00:00",
+  "at": "2026-12-02T11:00:00",
   "media": [
    "content/media/inside/inside02_c1.jpg",
    "content/media/inside/inside02_c2.jpg",
@@ -856,12 +856,12 @@
    "content/media/inside/inside02_c6.jpg",
    "content/media/inside/inside02_c7.jpg"
   ],
-  "caption": "5 cosas que hace esta app de Excel que un vídeo tutorial no hace.\n\n1. Corrige tu fórmula al instante.\n2. Te explica por qué fallaste.\n3. Pistas por niveles, sin darte la respuesta.\n4. Una misión diaria con un caso nuevo.\n5. Diplomas propios al completar el recorrido.\n\nGuárdalo y prueba el primer distrito gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Productividad"
+  "caption": "5 cosas que hace esta app de Excel que un vídeo tutorial no hace.\n\n1. Corrige tu fórmula al instante.\n2. Te explica por qué fallaste.\n3. Pistas por niveles, sin darte la respuesta.\n4. Una misión diaria con un caso nuevo.\n5. Diplomas propios al completar el recorrido.\n\nGuárdalo y prueba el primer distrito gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Productividad"
  },
  {
   "id": "day14-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-06T13:30:00",
+  "at": "2026-12-02T13:30:00",
   "media": [
    "content/media/day14/c1.jpg",
    "content/media/day14/c2.jpg",
@@ -873,12 +873,12 @@
    "content/media/day14/c8.jpg",
    "content/media/day14/c9.jpg"
   ],
-  "caption": "Qué significa cada error de Excel y cómo arreglarlo\n\nExcel no te grita por gusto: cada error (todos empiezan por #) te dice qué ha fallado.\n\n🔸 N/D → no encuentra lo que buscas (revisa el valor y los espacios).\n🔸 ¡DIV/0! → divides entre 0 o entre una celda vacía.\n🔸 ¡VALOR! → hay texto donde va un número.\n🔸 ¿NOMBRE? → función mal escrita o texto sin comillas.\n🔸 ¡REF! → borraste una celda, fila o columna que la fórmula usaba.\n\nY #####, tranquilo: no es un error. La columna es demasiado estrecha; haz doble clic en el borde del encabezado de la columna.\n\n🔖 Guárdalo para la próxima vez que Excel te asuste.\n\nEmpieza gratis con las 10 misiones del Distrito 1 → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #ErroresExcel"
+  "caption": "Qué significa cada error de Excel y cómo arreglarlo\n\nExcel no te grita por gusto: cada error (todos empiezan por #) te dice qué ha fallado.\n\n🔸 N/D → no encuentra lo que buscas (revisa el valor y los espacios).\n🔸 ¡DIV/0! → divides entre 0 o entre una celda vacía.\n🔸 ¡VALOR! → hay texto donde va un número.\n🔸 ¿NOMBRE? → función mal escrita o texto sin comillas.\n🔸 ¡REF! → borraste una celda, fila o columna que la fórmula usaba.\n\nY #####, tranquilo: no es un error. La columna es demasiado estrecha; haz doble clic en el borde del encabezado de la columna.\n\n🔖 Guárdalo para la próxima vez que Excel te asuste.\n\nEmpieza gratis con las 10 misiones del Distrito 1 → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #ErroresExcel"
  },
  {
   "id": "day14-story2",
   "type": "STORY",
-  "at": "2026-12-06T15:00:00",
+  "at": "2026-12-02T15:00:00",
   "media": [
    "content/media/day14/s2.jpg"
   ]
@@ -886,17 +886,17 @@
  {
   "id": "day14-reel",
   "type": "REEL",
-  "at": "2026-12-06T20:00:00",
+  "at": "2026-12-02T20:00:00",
   "media": [
    "content/media/day14/reel.mp4"
   ],
   "cover": "content/media/day14/reel_cover.jpg",
-  "caption": "Qué significa cada error de Excel en 20 segundos.\n\nN/D, ¡DIV/0!, ¡VALOR!, ¿NOMBRE? y ¡REF! (todos con # delante): cada error te dice qué ha fallado. Y ##### ni siquiera es un error.\n\n🔖 Guárdalo para la próxima vez que Excel te asuste. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #ErroresExcel"
+  "caption": "Qué significa cada error de Excel en 20 segundos.\n\nN/D, ¡DIV/0!, ¡VALOR!, ¿NOMBRE? y ¡REF! (todos con # delante): cada error te dice qué ha fallado. Y ##### ni siquiera es un error.\n\n🔖 Guárdalo para la próxima vez que Excel te asuste. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #ErroresExcel"
  },
  {
   "id": "day14-story3",
   "type": "STORY",
-  "at": "2026-12-06T22:00:00",
+  "at": "2026-12-02T22:00:00",
   "media": [
    "content/media/day14/s3.jpg"
   ]
@@ -904,7 +904,7 @@
  {
   "id": "day15-story1",
   "type": "STORY",
-  "at": "2026-12-07T09:00:00",
+  "at": "2026-12-03T09:00:00",
   "media": [
    "content/media/day15/s1.jpg"
   ]
@@ -912,7 +912,7 @@
  {
   "id": "day15-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-07T13:30:00",
+  "at": "2026-12-03T13:30:00",
   "media": [
    "content/media/day15/c1.jpg",
    "content/media/day15/c2.jpg",
@@ -924,12 +924,12 @@
    "content/media/day15/c8.jpg",
    "content/media/day15/c9.jpg"
   ],
-  "caption": "Cómo usar SI.CONJUNTO en Excel (en vez de SI anidados)\n\nTramos de descuento: desde 1.000 € un 15 %, desde 500 € un 10 %, desde 200 € un 5 %, y si no, 0 %. Con SI anidados acabas así:\n=SI(B2>=1000;15%;SI(B2>=500;10%;SI(B2>=200;5%;0%)))\n\nCon SI.CONJUNTO se lee de izquierda a derecha, sin cadena de paréntesis:\n=SI.CONJUNTO(B2>=1000;15%;B2>=500;10%;B2>=200;5%;VERDADERO;0%)\n\n⚠️ Dos reglas: ordena los tramos de mayor a menor (Excel se queda con la primera condición que se cumple) y cierra con VERDADERO para «cualquier otro caso», o verás el error N/D.\n\nSI.CONJUNTO funciona en Excel 2019, 2021 y 365. En versiones anteriores, usa SI anidado.\n\n📤 Mándaselo a quien todavía cuenta paréntesis.\n\nEmpieza gratis en el Distrito 1; las misiones de SI te esperan en el Distrito 4 · Ventas que no Cuadran → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FuncionSI"
+  "caption": "Cómo usar SI.CONJUNTO en Excel (en vez de SI anidados)\n\nTramos de descuento: desde 1.000 € un 15 %, desde 500 € un 10 %, desde 200 € un 5 %, y si no, 0 %. Con SI anidados acabas así:\n=SI(B2>=1000;15%;SI(B2>=500;10%;SI(B2>=200;5%;0%)))\n\nCon SI.CONJUNTO se lee de izquierda a derecha, sin cadena de paréntesis:\n=SI.CONJUNTO(B2>=1000;15%;B2>=500;10%;B2>=200;5%;VERDADERO;0%)\n\n⚠️ Dos reglas: ordena los tramos de mayor a menor (Excel se queda con la primera condición que se cumple) y cierra con VERDADERO para «cualquier otro caso», o verás el error N/D.\n\nSI.CONJUNTO funciona en Excel 2019, 2021 y 365. En versiones anteriores, usa SI anidado.\n\n📤 Mándaselo a quien todavía cuenta paréntesis.\n\nEmpieza gratis en el Distrito 1; las misiones de SI te esperan en el Distrito 4 · Ventas que no Cuadran → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #FuncionSI"
  },
  {
   "id": "day15-story2",
   "type": "STORY",
-  "at": "2026-12-07T15:00:00",
+  "at": "2026-12-03T15:00:00",
   "media": [
    "content/media/day15/s2.jpg"
   ]
@@ -937,17 +937,17 @@
  {
   "id": "day15-reel",
   "type": "REEL",
-  "at": "2026-12-07T20:00:00",
+  "at": "2026-12-03T20:00:00",
   "media": [
    "content/media/day15/reel.mp4"
   ],
   "cover": "content/media/day15/reel_cover.jpg",
-  "caption": "Deja de anidar SI: usa SI.CONJUNTO (Excel 2019, 2021 y 365).\n\nPares de condición y resultado, de mayor a menor, y VERDADERO al final para «cualquier otro caso». Sin cadena de paréntesis.\n\n📤 Mándaselo a quien todavía cuenta paréntesis. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FuncionSI"
+  "caption": "Deja de anidar SI: usa SI.CONJUNTO (Excel 2019, 2021 y 365).\n\nPares de condición y resultado, de mayor a menor, y VERDADERO al final para «cualquier otro caso». Sin cadena de paréntesis.\n\n📤 Mándaselo a quien todavía cuenta paréntesis. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FuncionSI"
  },
  {
   "id": "day15-story3",
   "type": "STORY",
-  "at": "2026-12-07T22:00:00",
+  "at": "2026-12-03T22:00:00",
   "media": [
    "content/media/day15/s3.jpg"
   ]
@@ -955,7 +955,7 @@
  {
   "id": "day16-story1",
   "type": "STORY",
-  "at": "2026-12-08T09:00:00",
+  "at": "2026-12-04T09:00:00",
   "media": [
    "content/media/day16/s1.jpg"
   ]
@@ -963,7 +963,7 @@
  {
   "id": "day16-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-08T13:30:00",
+  "at": "2026-12-04T13:30:00",
   "media": [
    "content/media/day16/c1.jpg",
    "content/media/day16/c2.jpg",
@@ -975,12 +975,12 @@
    "content/media/day16/c8.jpg",
    "content/media/day16/c9.jpg"
   ],
-  "caption": "Cómo crear una lista desplegable en Excel\n\nSi cada persona escribe el estado a su manera («Pagado», «pagada», «Pagada» con un espacio al final…), tus fórmulas no cuentan bien: CONTAR.SI ve 3 pagadas donde hay 5.\n\nLa solución es una lista desplegable:\n1️⃣ Selecciona la columna (B2:B7).\n2️⃣ Datos > Validación de datos.\n3️⃣ Permitir: Lista. Origen: Pendiente;Pagada;Vencida.\n4️⃣ Pestaña Mensaje de error > Estilo: Detener.\n\nLa validación no corrige lo que ya estaba escrito: usa Datos > Validación de datos > Rodear con un círculo datos no válidos para encontrarlo.\n\n🔖 Guárdalo para el próximo Excel compartido.\n\nEmpieza gratis en el Distrito 1; la limpieza de datos te espera en el Distrito 3 · Datos Sucios → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por , (también en el Origen de la lista)\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #LimpiezaDeDatos"
+  "caption": "Cómo crear una lista desplegable en Excel\n\nSi cada persona escribe el estado a su manera («Pagado», «pagada», «Pagada» con un espacio al final…), tus fórmulas no cuentan bien: CONTAR.SI ve 3 pagadas donde hay 5.\n\nLa solución es una lista desplegable:\n1️⃣ Selecciona la columna (B2:B7).\n2️⃣ Datos > Validación de datos.\n3️⃣ Permitir: Lista. Origen: Pendiente;Pagada;Vencida.\n4️⃣ Pestaña Mensaje de error > Estilo: Detener.\n\nLa validación no corrige lo que ya estaba escrito: usa Datos > Validación de datos > Rodear con un círculo datos no válidos para encontrarlo.\n\n🔖 Guárdalo para el próximo Excel compartido.\n\nEmpieza gratis en el Distrito 1; la limpieza de datos te espera en el Distrito 3 · Datos Sucios → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por , (también en el Origen de la lista)\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #LimpiezaDeDatos"
  },
  {
   "id": "day16-story2",
   "type": "STORY",
-  "at": "2026-12-08T15:00:00",
+  "at": "2026-12-04T15:00:00",
   "media": [
    "content/media/day16/s2.jpg"
   ]
@@ -988,29 +988,243 @@
  {
   "id": "app-demo05",
   "type": "REEL",
-  "at": "2026-12-08T17:00:00",
+  "at": "2026-12-04T17:00:00",
   "media": [
    "content/media/app/demo05.mp4"
   ],
   "cover_ms": 600,
-  "caption": "¿Y si cada fórmula correcta te diera monedas? 🪙\n\nEn Aprende Excel Jugando ganas XP, monedas y rachas, y canjeas monedas por pistas cuando te atascas.\n\nEmpieza gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Gamificacion"
+  "caption": "¿Y si cada fórmula correcta te diera monedas? 🪙\n\nEn Aprende Excel Jugando ganas XP, monedas y rachas, y canjeas monedas por pistas cuando te atascas.\n\nEmpieza gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Gamificacion"
  },
  {
   "id": "day16-reel",
   "type": "REEL",
-  "at": "2026-12-08T20:00:00",
+  "at": "2026-12-04T20:00:00",
   "media": [
    "content/media/day16/reel.mp4"
   ],
   "cover": "content/media/day16/reel_cover.jpg",
-  "caption": "Cómo crear una lista desplegable en Excel.\n\nDatos > Validación de datos > Permitir: Lista. Así nadie escribe «Pagado» o «pagada» y tu CONTAR.SI cuenta bien.\n\n🔖 Guárdalo para el próximo Excel compartido. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #LimpiezaDeDatos"
+  "caption": "Cómo crear una lista desplegable en Excel.\n\nDatos > Validación de datos > Permitir: Lista. Así nadie escribe «Pagado» o «pagada» y tu CONTAR.SI cuenta bien.\n\n🔖 Guárdalo para el próximo Excel compartido. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #LimpiezaDeDatos"
  },
  {
   "id": "day16-story3",
   "type": "STORY",
-  "at": "2026-12-08T22:00:00",
+  "at": "2026-12-04T22:00:00",
   "media": [
    "content/media/day16/s3.jpg"
+  ]
+ },
+ {
+  "id": "day21-story1",
+  "type": "STORY",
+  "at": "2026-12-05T09:00:00",
+  "media": [
+   "content/media/day21/s1.jpg"
+  ]
+ },
+ {
+  "id": "day21-carrusel",
+  "type": "CAROUSEL",
+  "at": "2026-12-05T13:30:00",
+  "media": [
+   "content/media/day21/c1.jpg",
+   "content/media/day21/c2.jpg",
+   "content/media/day21/c3.jpg",
+   "content/media/day21/c4.jpg",
+   "content/media/day21/c5.jpg",
+   "content/media/day21/c6.jpg",
+   "content/media/day21/c7.jpg",
+   "content/media/day21/c8.jpg",
+   "content/media/day21/c9.jpg"
+  ],
+  "caption": "BUSCARV devuelve un valor incorrecto: cómo detectarlo\n\nLe pides a la IA una fórmula para buscar precios y te da =BUSCARV(706;A2:C7;3). No sale ningún error… pero el precio es falso: 59,00 € en lugar de 189,00 €.\n\nEl motivo: falta el cuarto argumento. Sin él, BUSCARV usa coincidencia aproximada y da por hecho que la columna de búsqueda está ordenada. Si no lo está, se para en la fila equivocada.\n\nEl arreglo es una palabra: =BUSCARV(706;A2:C7;3;FALSO). Y una costumbre: prueba siempre la fórmula con un dato cuyo resultado ya conoces.\n\nMándaselo a quien copia fórmulas de la IA sin revisarlas. Practica BUSCARV en el Distrito 6 de la ciudad. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #FormulasExcel #TrucosExcel"
+ },
+ {
+  "id": "day21-story2",
+  "type": "STORY",
+  "at": "2026-12-05T15:00:00",
+  "media": [
+   "content/media/day21/s2.jpg"
+  ]
+ },
+ {
+  "id": "day21-reel",
+  "type": "REEL",
+  "at": "2026-12-05T20:00:00",
+  "media": [
+   "content/media/day21/reel.mp4"
+  ],
+  "cover": "content/media/day21/reel_cover.jpg",
+  "caption": "BUSCARV devuelve un valor incorrecto\n\nLa IA te da la fórmula, no sale ningún error… y el precio es falso. Sin el cuarto argumento, BUSCARV busca de forma aproximada. Añade FALSO y prueba con un dato que conoces.\n\nMándaselo a quien copia fórmulas de la IA. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #TrucosExcel"
+ },
+ {
+  "id": "day21-story3",
+  "type": "STORY",
+  "at": "2026-12-05T22:00:00",
+  "media": [
+   "content/media/day21/s3.jpg"
+  ]
+ },
+ {
+  "id": "day18-story1",
+  "type": "STORY",
+  "at": "2026-12-06T09:00:00",
+  "media": [
+   "content/media/day18/s1.jpg"
+  ]
+ },
+ {
+  "id": "day18-carrusel",
+  "type": "CAROUSEL",
+  "at": "2026-12-06T13:30:00",
+  "media": [
+   "content/media/day18/c1.jpg",
+   "content/media/day18/c2.jpg",
+   "content/media/day18/c3.jpg",
+   "content/media/day18/c4.jpg",
+   "content/media/day18/c5.jpg",
+   "content/media/day18/c6.jpg",
+   "content/media/day18/c7.jpg",
+   "content/media/day18/c8.jpg",
+   "content/media/day18/c9.jpg"
+  ],
+  "caption": "Cómo hacer un semáforo de inventario en Excel con formato condicional\n\nDeja de revisar el stock a ojo. Con una columna de estado y formato condicional, Excel te marca en rojo lo que hay que reponer.\n\n1️⃣ Estado: =SI(B2<C2;\"Reponer\";SI(B2<C2*1,5;\"Vigilar\";\"OK\"))\n2️⃣ Colores: Inicio > Formato condicional > Nueva regla > Utilice una fórmula que determine las celdas para aplicar formato. Rojo con =$B2<$C2, ámbar con =$B2<$C2*1,5 y verde con =$B2>=$C2*1,5.\n3️⃣ Resumen: =CONTAR.SI(D2:D7;\"Reponer\") → 2 productos.\n\nEl $ delante de la columna es la clave: así toda la fila se colorea según su propio stock. Y el orden de las reglas importa: la roja, arriba.\n\n🔖 Guárdalo para tu próximo control de stock.\n\nEmpieza gratis en el Distrito 1; el inventario te espera en el Distrito 8 · La Isla del Inventario → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Inventario"
+ },
+ {
+  "id": "day18-story2",
+  "type": "STORY",
+  "at": "2026-12-06T15:00:00",
+  "media": [
+   "content/media/day18/s2.jpg"
+  ]
+ },
+ {
+  "id": "day18-reel",
+  "type": "REEL",
+  "at": "2026-12-06T20:00:00",
+  "media": [
+   "content/media/day18/reel.mp4"
+  ],
+  "cover": "content/media/day18/reel_cover.jpg",
+  "caption": "Semáforo de inventario en Excel: formato condicional + CONTAR.SI.\n\nRojo si el stock está bajo el mínimo (=$B2<$C2), y un CONTAR.SI que te dice cuántos productos hay que reponer.\n\n🔖 Guárdalo para tu próximo control de stock. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Inventario"
+ },
+ {
+  "id": "day18-story3",
+  "type": "STORY",
+  "at": "2026-12-06T22:00:00",
+  "media": [
+   "content/media/day18/s3.jpg"
+  ]
+ },
+ {
+  "id": "day23-story1",
+  "type": "STORY",
+  "at": "2026-12-07T09:00:00",
+  "media": [
+   "content/media/day23/s1.jpg"
+  ]
+ },
+ {
+  "id": "day23-carrusel",
+  "type": "CAROUSEL",
+  "at": "2026-12-07T13:30:00",
+  "media": [
+   "content/media/day23/c1.jpg",
+   "content/media/day23/c2.jpg",
+   "content/media/day23/c3.jpg",
+   "content/media/day23/c4.jpg",
+   "content/media/day23/c5.jpg",
+   "content/media/day23/c6.jpg",
+   "content/media/day23/c7.jpg",
+   "content/media/day23/c8.jpg",
+   "content/media/day23/c9.jpg"
+  ],
+  "caption": "Cómo quitar duplicados en Excel con una fórmula (UNICOS)\n\nTienes 6 pedidos y te preguntan a cuántos clientes distintos vendiste. Contar filas da 6, pero Ana y Luis repiten: son 4.\n\nCon =UNICOS(B2:B7) Excel te devuelve la lista sin repetidos, sin tocar tus datos. Con =CONTARA(UNICOS(B2:B7)) los cuentas y con =ORDENAR(UNICOS(B2:B7)) los tienes de la A a la Z.\n\nOjo con el tercer argumento: =UNICOS(B2:B7;;VERDADERO) no quita duplicados, devuelve solo los que aparecen una única vez.\n\nRequiere Excel 365 o Excel 2021. Si tienes una versión anterior, usa Datos > Quitar duplicados sobre una copia.\n\nMándaselo a quien limpia listas a mano. Practica la limpieza de datos en el Distrito 3. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #UNICOS #ExcelEnEspañol #FormulasExcel #Excel365"
+ },
+ {
+  "id": "day23-story2",
+  "type": "STORY",
+  "at": "2026-12-07T15:00:00",
+  "media": [
+   "content/media/day23/s2.jpg"
+  ]
+ },
+ {
+  "id": "app-demo06",
+  "type": "REEL",
+  "at": "2026-12-07T17:00:00",
+  "media": [
+   "content/media/app/demo06.mp4"
+  ],
+  "cover_ms": 600,
+  "caption": "Un caso de trabajo nuevo cada día: la misión diaria de Aprende Excel Jugando.\n\nInvestiga los datos, escribe la fórmula y la app te corrige al momento.\n\nPruébala gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #RetoExcel #CursoDeExcel"
+ },
+ {
+  "id": "day23-reel",
+  "type": "REEL",
+  "at": "2026-12-07T20:00:00",
+  "media": [
+   "content/media/day23/reel.mp4"
+  ],
+  "cover": "content/media/day23/reel_cover.jpg",
+  "caption": "Cómo quitar duplicados en Excel con una fórmula\n\n6 pedidos, 4 clientes. =UNICOS(B2:B7) te da la lista sin repetidos y =CONTARA(UNICOS(B2:B7)) los cuenta. Sin borrar nada. Requiere Excel 365 o 2021.\n\nMándaselo a quien limpia listas a mano. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #UNICOS #ExcelEnEspañol #Excel365"
+ },
+ {
+  "id": "day23-story3",
+  "type": "STORY",
+  "at": "2026-12-07T22:00:00",
+  "media": [
+   "content/media/day23/s3.jpg"
+  ]
+ },
+ {
+  "id": "day20-story1",
+  "type": "STORY",
+  "at": "2026-12-08T09:00:00",
+  "media": [
+   "content/media/day20/s1.jpg"
+  ]
+ },
+ {
+  "id": "day20-carrusel",
+  "type": "CAROUSEL",
+  "at": "2026-12-08T13:30:00",
+  "media": [
+   "content/media/day20/c1.jpg",
+   "content/media/day20/c2.jpg",
+   "content/media/day20/c3.jpg",
+   "content/media/day20/c4.jpg",
+   "content/media/day20/c5.jpg",
+   "content/media/day20/c6.jpg",
+   "content/media/day20/c7.jpg",
+   "content/media/day20/c8.jpg",
+   "content/media/day20/c9.jpg"
+  ],
+  "caption": "SUMAR.SI vs SUMAR.SI.CONJUNTO en Excel: diferencias\n\nTe piden «las ventas de Madrid en marzo». Con SUMAR.SI solo puedes poner una condición, así que te sale todo Madrid: 4.060,50 €. Te sobran 2.050 € de abril.\n\nCon dos condiciones necesitas SUMAR.SI.CONJUNTO:\n=SUMAR.SI.CONJUNTO(C2:C7;A2:A7;\"Madrid\";B2:B7;\"Marzo\") → 2.010,50 €\n\n⚠️ Ojo al orden: en SUMAR.SI el rango a sumar va al final; en SUMAR.SI.CONJUNTO va el primero.\n\nTruco: SUMAR.SI.CONJUNTO también funciona con una sola condición. Si te acostumbras a ella, no tienes que recordar dos órdenes distintos. Existe desde Excel 2007, así que funciona en cualquier versión actual.\n\n🔖 Guárdalo para tu próximo informe de ventas.\n\nEmpieza gratis en el Distrito 1; SUMAR.SI te espera en el Distrito 2 · Facturas Pendientes → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #ReporteDeVentas"
+ },
+ {
+  "id": "day20-story2",
+  "type": "STORY",
+  "at": "2026-12-08T15:00:00",
+  "media": [
+   "content/media/day20/s2.jpg"
+  ]
+ },
+ {
+  "id": "day20-reel",
+  "type": "REEL",
+  "at": "2026-12-08T20:00:00",
+  "media": [
+   "content/media/day20/reel.mp4"
+  ],
+  "cover": "content/media/day20/reel_cover.jpg",
+  "caption": "SUMAR.SI vs SUMAR.SI.CONJUNTO: ventas de Madrid en marzo.\n\nCon SUMAR.SI te salen 4.060,50 € (todo Madrid). Con SUMAR.SI.CONJUNTO, 2.010,50 €. Y ojo: el rango a sumar cambia de sitio.\n\n🔖 Guárdalo para tu próximo informe de ventas. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #ReporteDeVentas"
+ },
+ {
+  "id": "day20-story3",
+  "type": "STORY",
+  "at": "2026-12-08T22:00:00",
+  "media": [
+   "content/media/day20/s3.jpg"
   ]
  },
  {
@@ -1020,6 +1234,20 @@
   "media": [
    "content/media/day17/s1.jpg"
   ]
+ },
+ {
+  "id": "inside-inside03",
+  "type": "CAROUSEL",
+  "at": "2026-12-09T11:00:00",
+  "media": [
+   "content/media/inside/inside03_c1.jpg",
+   "content/media/inside/inside03_c2.jpg",
+   "content/media/inside/inside03_c3.jpg",
+   "content/media/inside/inside03_c4.jpg",
+   "content/media/inside/inside03_c5.jpg",
+   "content/media/inside/inside03_c6.jpg"
+  ],
+  "caption": "Tu ruta para aprender Excel, distrito a distrito.\n\n1 La Base de las Celdas · SUMA\n2 Facturas Pendientes · SUMAR.SI\n3 Datos Sucios · limpieza de datos\n4 Ventas que no Cuadran · SI\n5 El Reporte Semanal · PROMEDIO.SI, MAX, MIN\n6 La Conciliación · BUSCARV y BUSCARX\n7 La Entrevista · prueba técnica\n8 La Isla del Inventario · CONTAR.SI\n9 La Torre del Talento · nóminas\n10 La Ciudad del Presupuesto\n\nEl primero es gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #FormulasExcel"
  },
  {
   "id": "day17-carrusel",
@@ -1036,7 +1264,7 @@
    "content/media/day17/c8.jpg",
    "content/media/day17/c9.jpg"
   ],
-  "caption": "Cómo contar facturas vencidas en Excel con CONTAR.SI\n\nReto: hoy es 9 de diciembre de 2026. ¿Cuántas de estas 6 facturas están vencidas? Respuesta: 3. La que vence hoy todavía no cuenta.\n\nLa fórmula:\n=CONTAR.SI(C2:C7;\"<\"&HOY())\n\nEl operador va entre comillas y & lo une a la fecha de hoy. Si escribes \"<HOY()\" todo junto, Excel compara tus fechas con el texto «HOY()» y devuelve 0.\n\n💶 ¿Cuánto dinero suman? =SUMAR.SI(C2:C7;\"<\"&HOY();B2:B7) → 1.010,50 €\n📅 Para un informe a fecha fija, cambia HOY() por FECHA(2026;12;9).\n\n📤 Mándaselo a quien revisa los vencimientos a ojo.\n\nEmpieza gratis en el Distrito 1; las facturas te esperan en el Distrito 2 · Facturas Pendientes → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Contabilidad"
+  "caption": "Cómo contar facturas vencidas en Excel con CONTAR.SI\n\nReto: hoy es 9 de diciembre de 2026. ¿Cuántas de estas 6 facturas están vencidas? Respuesta: 3. La que vence hoy todavía no cuenta.\n\nLa fórmula:\n=CONTAR.SI(C2:C7;\"<\"&HOY())\n\nEl operador va entre comillas y & lo une a la fecha de hoy. Si escribes \"<HOY()\" todo junto, Excel compara tus fechas con el texto «HOY()» y devuelve 0.\n\n💶 ¿Cuánto dinero suman? =SUMAR.SI(C2:C7;\"<\"&HOY();B2:B7) → 1.010,50 €\n📅 Para un informe a fecha fija, cambia HOY() por FECHA(2026;12;9).\n\n📤 Mándaselo a quien revisa los vencimientos a ojo.\n\nEmpieza gratis en el Distrito 1; las facturas te esperan en el Distrito 2 · Facturas Pendientes → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Contabilidad"
  },
  {
   "id": "day17-story2",
@@ -1054,7 +1282,7 @@
    "content/media/day17/reel.mp4"
   ],
   "cover": "content/media/day17/reel_cover.jpg",
-  "caption": "Reto: hoy es 9 de diciembre. ¿Cuántas facturas están vencidas?\n\n=CONTAR.SI(C2:C7;\"<\"&HOY()) → 3. Y si escribes \"<HOY()\" todo junto, Excel te dice 0.\n\n📤 Mándaselo a tu equipo y comparad respuestas. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Contabilidad"
+  "caption": "Reto: hoy es 9 de diciembre. ¿Cuántas facturas están vencidas?\n\n=CONTAR.SI(C2:C7;\"<\"&HOY()) → 3. Y si escribes \"<HOY()\" todo junto, Excel te dice 0.\n\n📤 Mándaselo a tu equipo y comparad respuestas. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Contabilidad"
  },
  {
   "id": "day17-story3",
@@ -1065,54 +1293,54 @@
   ]
  },
  {
-  "id": "day18-story1",
+  "id": "day22-story1",
   "type": "STORY",
   "at": "2026-12-10T09:00:00",
   "media": [
-   "content/media/day18/s1.jpg"
+   "content/media/day22/s1.jpg"
   ]
  },
  {
-  "id": "day18-carrusel",
+  "id": "day22-carrusel",
   "type": "CAROUSEL",
   "at": "2026-12-10T13:30:00",
   "media": [
-   "content/media/day18/c1.jpg",
-   "content/media/day18/c2.jpg",
-   "content/media/day18/c3.jpg",
-   "content/media/day18/c4.jpg",
-   "content/media/day18/c5.jpg",
-   "content/media/day18/c6.jpg",
-   "content/media/day18/c7.jpg",
-   "content/media/day18/c8.jpg",
-   "content/media/day18/c9.jpg"
+   "content/media/day22/c1.jpg",
+   "content/media/day22/c2.jpg",
+   "content/media/day22/c3.jpg",
+   "content/media/day22/c4.jpg",
+   "content/media/day22/c5.jpg",
+   "content/media/day22/c6.jpg",
+   "content/media/day22/c7.jpg",
+   "content/media/day22/c8.jpg",
+   "content/media/day22/c9.jpg"
   ],
-  "caption": "Cómo hacer un semáforo de inventario en Excel con formato condicional\n\nDeja de revisar el stock a ojo. Con una columna de estado y formato condicional, Excel te marca en rojo lo que hay que reponer.\n\n1️⃣ Estado: =SI(B2<C2;\"Reponer\";SI(B2<C2*1,5;\"Vigilar\";\"OK\"))\n2️⃣ Colores: Inicio > Formato condicional > Nueva regla > Utilice una fórmula que determine las celdas para aplicar formato. Rojo con =$B2<$C2, ámbar con =$B2<$C2*1,5 y verde con =$B2>=$C2*1,5.\n3️⃣ Resumen: =CONTAR.SI(D2:D7;\"Reponer\") → 2 productos.\n\nEl $ delante de la columna es la clave: así toda la fila se colorea según su propio stock. Y el orden de las reglas importa: la roja, arriba.\n\n🔖 Guárdalo para tu próximo control de stock.\n\nEmpieza gratis en el Distrito 1; el inventario te espera en el Distrito 8 · La Isla del Inventario → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Inventario"
+  "caption": "Cómo quitar el error #¡DIV/0! en Excel (sin esconder datos)\n\nCalculas el % de variación semanal con =C2/B2-1 y una fila sale con #¡DIV/0!: la semana anterior vendió 0 y no se puede dividir entre 0.\n\nLa tentación es taparlo con =SI.ERROR(C4/B4-1;0). Pero entonces un producto que pasó de 0 a 45 unidades aparece con 0 %, igual que otro que no se movió. Y SI.ERROR también esconde cualquier otro error, como un número escrito como texto.\n\nMejor trata solo el caso que conoces: =SI(B4=0;\"Nuevo\";C4/B4-1). El resto sigue calculándose y los errores inesperados siguen avisando.\n\nGuárdalo para tu próximo informe semanal. Practica estos reportes en el Distrito 5 de la ciudad. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #SIERROR #ExcelEnEspañol #FormulasExcel #TrucosExcel"
  },
  {
-  "id": "day18-story2",
+  "id": "day22-story2",
   "type": "STORY",
   "at": "2026-12-10T15:00:00",
   "media": [
-   "content/media/day18/s2.jpg"
+   "content/media/day22/s2.jpg"
   ]
  },
  {
-  "id": "day18-reel",
+  "id": "day22-reel",
   "type": "REEL",
   "at": "2026-12-10T20:00:00",
   "media": [
-   "content/media/day18/reel.mp4"
+   "content/media/day22/reel.mp4"
   ],
-  "cover": "content/media/day18/reel_cover.jpg",
-  "caption": "Semáforo de inventario en Excel: formato condicional + CONTAR.SI.\n\nRojo si el stock está bajo el mínimo (=$B2<$C2), y un CONTAR.SI que te dice cuántos productos hay que reponer.\n\n🔖 Guárdalo para tu próximo control de stock. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Inventario"
+  "cover": "content/media/day22/reel_cover.jpg",
+  "caption": "Cómo quitar el error #¡DIV/0! en Excel\n\nTaparlo con SI.ERROR y un 0 hace que tu informe mienta: un producto nuevo parece «sin cambios». Trata solo el caso que conoces con =SI(B4=0;\"Nuevo\";C4/B4-1).\n\nGuárdalo para tu próximo informe. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #SIERROR #ExcelEnEspañol #TrucosExcel"
  },
  {
-  "id": "day18-story3",
+  "id": "day22-story3",
   "type": "STORY",
   "at": "2026-12-10T22:00:00",
   "media": [
-   "content/media/day18/s3.jpg"
+   "content/media/day22/s3.jpg"
   ]
  },
  {
@@ -1138,7 +1366,7 @@
    "content/media/day19/c8.jpg",
    "content/media/day19/c9.jpg"
   ],
-  "caption": "Cómo comparar dos listas en Excel y encontrar lo que falta\n\nViernes, cierre de semana: tienes 6 cobros registrados y el extracto del banco solo trae 4. ¿Cuáles faltan? No los busques uno a uno.\n\nEn C2 escribe:\n=CONTAR.SI($E$2:$E$5;A2)\n\nCuenta cuántas veces aparece cada ID en la lista del banco. 1 = está. 0 = falta. Si lo prefieres en palabras:\n=SI(CONTAR.SI($E$2:$E$5;A2)=0;\"Falta\";\"OK\")\n\n💶 ¿Cuánto dinero falta? =SUMAR.SI(C2:C7;0;B2:B7) → 144,50 €\n\n⚠️ Los $ son obligatorios: sin ellos, al arrastrar, el rango del banco se desplaza y te marca como «Falta» cobros que sí llegaron.\n\n📤 Mándaselo a quien concilia a mano cada viernes.\n\nEmpieza gratis en el Distrito 1; la conciliación te espera en el Distrito 6 · La Conciliación → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Contabilidad"
+  "caption": "Cómo comparar dos listas en Excel y encontrar lo que falta\n\nViernes, cierre de semana: tienes 6 cobros registrados y el extracto del banco solo trae 4. ¿Cuáles faltan? No los busques uno a uno.\n\nEn C2 escribe:\n=CONTAR.SI($E$2:$E$5;A2)\n\nCuenta cuántas veces aparece cada ID en la lista del banco. 1 = está. 0 = falta. Si lo prefieres en palabras:\n=SI(CONTAR.SI($E$2:$E$5;A2)=0;\"Falta\";\"OK\")\n\n💶 ¿Cuánto dinero falta? =SUMAR.SI(C2:C7;0;B2:B7) → 144,50 €\n\n⚠️ Los $ son obligatorios: sin ellos, al arrastrar, el rango del banco se desplaza y te marca como «Falta» cobros que sí llegaron.\n\n📤 Mándaselo a quien concilia a mano cada viernes.\n\nEmpieza gratis en el Distrito 1; la conciliación te espera en el Distrito 6 · La Conciliación → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Contabilidad"
  },
  {
   "id": "day19-story2",
@@ -1149,14 +1377,14 @@
   ]
  },
  {
-  "id": "app-demo06",
+  "id": "app-demo07",
   "type": "REEL",
   "at": "2026-12-11T17:00:00",
   "media": [
-   "content/media/app/demo06.mp4"
+   "content/media/app/demo07.mp4"
   ],
   "cover_ms": 600,
-  "caption": "Un caso de trabajo nuevo cada día: la misión diaria de Aprende Excel Jugando.\n\nInvestiga los datos, escribe la fórmula y la app te corrige al momento.\n\nPruébala gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #RetoExcel #CursoDeExcel"
+  "caption": "Termina el recorrido y llévate el diploma de la academia (diplomas propios de Aprende Excel Jugando).\n\n10 distritos, 100 misiones con casos reales. Empieza por el primero, gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Formacion"
  },
  {
   "id": "day19-reel",
@@ -1166,7 +1394,7 @@
    "content/media/day19/reel.mp4"
   ],
   "cover": "content/media/day19/reel_cover.jpg",
-  "caption": "Cómo comparar dos listas en Excel: ¿qué cobros faltan en el banco?\n\n=CONTAR.SI($E$2:$E$5;A2) → 0 significa que falta. Y con SUMAR.SI sabes cuánto dinero es.\n\n📤 Mándaselo a quien concilia a mano cada viernes. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Contabilidad"
+  "caption": "Cómo comparar dos listas en Excel: ¿qué cobros faltan en el banco?\n\n=CONTAR.SI($E$2:$E$5;A2) → 0 significa que falta. Y con SUMAR.SI sabes cuánto dinero es.\n\n📤 Mándaselo a quien concilia a mano cada viernes. Empieza gratis: link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #Contabilidad"
  },
  {
   "id": "day19-story3",
@@ -1177,237 +1405,9 @@
   ]
  },
  {
-  "id": "day20-story1",
-  "type": "STORY",
-  "at": "2026-12-12T09:00:00",
-  "media": [
-   "content/media/day20/s1.jpg"
-  ]
- },
- {
-  "id": "day20-carrusel",
-  "type": "CAROUSEL",
-  "at": "2026-12-12T13:30:00",
-  "media": [
-   "content/media/day20/c1.jpg",
-   "content/media/day20/c2.jpg",
-   "content/media/day20/c3.jpg",
-   "content/media/day20/c4.jpg",
-   "content/media/day20/c5.jpg",
-   "content/media/day20/c6.jpg",
-   "content/media/day20/c7.jpg",
-   "content/media/day20/c8.jpg",
-   "content/media/day20/c9.jpg"
-  ],
-  "caption": "SUMAR.SI vs SUMAR.SI.CONJUNTO en Excel: diferencias\n\nTe piden «las ventas de Madrid en marzo». Con SUMAR.SI solo puedes poner una condición, así que te sale todo Madrid: 4.060,50 €. Te sobran 2.050 € de abril.\n\nCon dos condiciones necesitas SUMAR.SI.CONJUNTO:\n=SUMAR.SI.CONJUNTO(C2:C7;A2:A7;\"Madrid\";B2:B7;\"Marzo\") → 2.010,50 €\n\n⚠️ Ojo al orden: en SUMAR.SI el rango a sumar va al final; en SUMAR.SI.CONJUNTO va el primero.\n\nTruco: SUMAR.SI.CONJUNTO también funciona con una sola condición. Si te acostumbras a ella, no tienes que recordar dos órdenes distintos. Existe desde Excel 2007, así que funciona en cualquier versión actual.\n\n🔖 Guárdalo para tu próximo informe de ventas.\n\nEmpieza gratis en el Distrito 1; SUMAR.SI te espera en el Distrito 2 · Facturas Pendientes → link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #ReporteDeVentas"
- },
- {
-  "id": "day20-story2",
-  "type": "STORY",
-  "at": "2026-12-12T15:00:00",
-  "media": [
-   "content/media/day20/s2.jpg"
-  ]
- },
- {
-  "id": "day20-reel",
-  "type": "REEL",
-  "at": "2026-12-12T20:00:00",
-  "media": [
-   "content/media/day20/reel.mp4"
-  ],
-  "cover": "content/media/day20/reel_cover.jpg",
-  "caption": "SUMAR.SI vs SUMAR.SI.CONJUNTO: ventas de Madrid en marzo.\n\nCon SUMAR.SI te salen 4.060,50 € (todo Madrid). Con SUMAR.SI.CONJUNTO, 2.010,50 €. Y ojo: el rango a sumar cambia de sitio.\n\n🔖 Guárdalo para tu próximo informe de ventas. Empieza gratis: link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #ReporteDeVentas"
- },
- {
-  "id": "day20-story3",
-  "type": "STORY",
-  "at": "2026-12-12T22:00:00",
-  "media": [
-   "content/media/day20/s3.jpg"
-  ]
- },
- {
-  "id": "day21-story1",
-  "type": "STORY",
-  "at": "2026-12-13T09:00:00",
-  "media": [
-   "content/media/day21/s1.jpg"
-  ]
- },
- {
-  "id": "inside-inside03",
-  "type": "CAROUSEL",
-  "at": "2026-12-13T11:00:00",
-  "media": [
-   "content/media/inside/inside03_c1.jpg",
-   "content/media/inside/inside03_c2.jpg",
-   "content/media/inside/inside03_c3.jpg",
-   "content/media/inside/inside03_c4.jpg",
-   "content/media/inside/inside03_c5.jpg",
-   "content/media/inside/inside03_c6.jpg"
-  ],
-  "caption": "Tu ruta para aprender Excel, distrito a distrito.\n\n1 La Base de las Celdas · SUMA\n2 Facturas Pendientes · SUMAR.SI\n3 Datos Sucios · limpieza de datos\n4 Ventas que no Cuadran · SI\n5 El Reporte Semanal · PROMEDIO.SI, MAX, MIN\n6 La Conciliación · BUSCARV y BUSCARX\n7 La Entrevista · prueba técnica\n8 La Isla del Inventario · CONTAR.SI\n9 La Torre del Talento · nóminas\n10 La Ciudad del Presupuesto\n\nEl primero es gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #FormulasExcel"
- },
- {
-  "id": "day21-carrusel",
-  "type": "CAROUSEL",
-  "at": "2026-12-13T13:30:00",
-  "media": [
-   "content/media/day21/c1.jpg",
-   "content/media/day21/c2.jpg",
-   "content/media/day21/c3.jpg",
-   "content/media/day21/c4.jpg",
-   "content/media/day21/c5.jpg",
-   "content/media/day21/c6.jpg",
-   "content/media/day21/c7.jpg",
-   "content/media/day21/c8.jpg",
-   "content/media/day21/c9.jpg"
-  ],
-  "caption": "BUSCARV devuelve un valor incorrecto: cómo detectarlo\n\nLe pides a la IA una fórmula para buscar precios y te da =BUSCARV(706;A2:C7;3). No sale ningún error… pero el precio es falso: 59,00 € en lugar de 189,00 €.\n\nEl motivo: falta el cuarto argumento. Sin él, BUSCARV usa coincidencia aproximada y da por hecho que la columna de búsqueda está ordenada. Si no lo está, se para en la fila equivocada.\n\nEl arreglo es una palabra: =BUSCARV(706;A2:C7;3;FALSO). Y una costumbre: prueba siempre la fórmula con un dato cuyo resultado ya conoces.\n\nMándaselo a quien copia fórmulas de la IA sin revisarlas. Practica BUSCARV en el Distrito 6 de la ciudad. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #FormulasExcel #TrucosExcel"
- },
- {
-  "id": "day21-story2",
-  "type": "STORY",
-  "at": "2026-12-13T15:00:00",
-  "media": [
-   "content/media/day21/s2.jpg"
-  ]
- },
- {
-  "id": "day21-reel",
-  "type": "REEL",
-  "at": "2026-12-13T20:00:00",
-  "media": [
-   "content/media/day21/reel.mp4"
-  ],
-  "cover": "content/media/day21/reel_cover.jpg",
-  "caption": "BUSCARV devuelve un valor incorrecto\n\nLa IA te da la fórmula, no sale ningún error… y el precio es falso. Sin el cuarto argumento, BUSCARV busca de forma aproximada. Añade FALSO y prueba con un dato que conoces.\n\nMándaselo a quien copia fórmulas de la IA. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #TrucosExcel"
- },
- {
-  "id": "day21-story3",
-  "type": "STORY",
-  "at": "2026-12-13T22:00:00",
-  "media": [
-   "content/media/day21/s3.jpg"
-  ]
- },
- {
-  "id": "day22-story1",
-  "type": "STORY",
-  "at": "2026-12-14T09:00:00",
-  "media": [
-   "content/media/day22/s1.jpg"
-  ]
- },
- {
-  "id": "day22-carrusel",
-  "type": "CAROUSEL",
-  "at": "2026-12-14T13:30:00",
-  "media": [
-   "content/media/day22/c1.jpg",
-   "content/media/day22/c2.jpg",
-   "content/media/day22/c3.jpg",
-   "content/media/day22/c4.jpg",
-   "content/media/day22/c5.jpg",
-   "content/media/day22/c6.jpg",
-   "content/media/day22/c7.jpg",
-   "content/media/day22/c8.jpg",
-   "content/media/day22/c9.jpg"
-  ],
-  "caption": "Cómo quitar el error #¡DIV/0! en Excel (sin esconder datos)\n\nCalculas el % de variación semanal con =C2/B2-1 y una fila sale con #¡DIV/0!: la semana anterior vendió 0 y no se puede dividir entre 0.\n\nLa tentación es taparlo con =SI.ERROR(C4/B4-1;0). Pero entonces un producto que pasó de 0 a 45 unidades aparece con 0 %, igual que otro que no se movió. Y SI.ERROR también esconde cualquier otro error, como un número escrito como texto.\n\nMejor trata solo el caso que conoces: =SI(B4=0;\"Nuevo\";C4/B4-1). El resto sigue calculándose y los errores inesperados siguen avisando.\n\nGuárdalo para tu próximo informe semanal. Practica estos reportes en el Distrito 5 de la ciudad. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #SIERROR #ExcelEnEspañol #FormulasExcel #TrucosExcel"
- },
- {
-  "id": "day22-story2",
-  "type": "STORY",
-  "at": "2026-12-14T15:00:00",
-  "media": [
-   "content/media/day22/s2.jpg"
-  ]
- },
- {
-  "id": "day22-reel",
-  "type": "REEL",
-  "at": "2026-12-14T20:00:00",
-  "media": [
-   "content/media/day22/reel.mp4"
-  ],
-  "cover": "content/media/day22/reel_cover.jpg",
-  "caption": "Cómo quitar el error #¡DIV/0! en Excel\n\nTaparlo con SI.ERROR y un 0 hace que tu informe mienta: un producto nuevo parece «sin cambios». Trata solo el caso que conoces con =SI(B4=0;\"Nuevo\";C4/B4-1).\n\nGuárdalo para tu próximo informe. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #SIERROR #ExcelEnEspañol #TrucosExcel"
- },
- {
-  "id": "day22-story3",
-  "type": "STORY",
-  "at": "2026-12-14T22:00:00",
-  "media": [
-   "content/media/day22/s3.jpg"
-  ]
- },
- {
-  "id": "day23-story1",
-  "type": "STORY",
-  "at": "2026-12-15T09:00:00",
-  "media": [
-   "content/media/day23/s1.jpg"
-  ]
- },
- {
-  "id": "day23-carrusel",
-  "type": "CAROUSEL",
-  "at": "2026-12-15T13:30:00",
-  "media": [
-   "content/media/day23/c1.jpg",
-   "content/media/day23/c2.jpg",
-   "content/media/day23/c3.jpg",
-   "content/media/day23/c4.jpg",
-   "content/media/day23/c5.jpg",
-   "content/media/day23/c6.jpg",
-   "content/media/day23/c7.jpg",
-   "content/media/day23/c8.jpg",
-   "content/media/day23/c9.jpg"
-  ],
-  "caption": "Cómo quitar duplicados en Excel con una fórmula (UNICOS)\n\nTienes 6 pedidos y te preguntan a cuántos clientes distintos vendiste. Contar filas da 6, pero Ana y Luis repiten: son 4.\n\nCon =UNICOS(B2:B7) Excel te devuelve la lista sin repetidos, sin tocar tus datos. Con =CONTARA(UNICOS(B2:B7)) los cuentas y con =ORDENAR(UNICOS(B2:B7)) los tienes de la A a la Z.\n\nOjo con el tercer argumento: =UNICOS(B2:B7;;VERDADERO) no quita duplicados, devuelve solo los que aparecen una única vez.\n\nRequiere Excel 365 o Excel 2021. Si tienes una versión anterior, usa Datos > Quitar duplicados sobre una copia.\n\nMándaselo a quien limpia listas a mano. Practica la limpieza de datos en el Distrito 3. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #UNICOS #ExcelEnEspañol #FormulasExcel #Excel365"
- },
- {
-  "id": "day23-story2",
-  "type": "STORY",
-  "at": "2026-12-15T15:00:00",
-  "media": [
-   "content/media/day23/s2.jpg"
-  ]
- },
- {
-  "id": "app-demo07",
-  "type": "REEL",
-  "at": "2026-12-15T17:00:00",
-  "media": [
-   "content/media/app/demo07.mp4"
-  ],
-  "cover_ms": 600,
-  "caption": "Termina el recorrido y llévate el diploma de la academia (diplomas propios de Aprende Excel Jugando).\n\n10 distritos, 100 misiones con casos reales. Empieza por el primero, gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #Formacion"
- },
- {
-  "id": "day23-reel",
-  "type": "REEL",
-  "at": "2026-12-15T20:00:00",
-  "media": [
-   "content/media/day23/reel.mp4"
-  ],
-  "cover": "content/media/day23/reel_cover.jpg",
-  "caption": "Cómo quitar duplicados en Excel con una fórmula\n\n6 pedidos, 4 clientes. =UNICOS(B2:B7) te da la lista sin repetidos y =CONTARA(UNICOS(B2:B7)) los cuenta. Sin borrar nada. Requiere Excel 365 o 2021.\n\nMándaselo a quien limpia listas a mano. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #UNICOS #ExcelEnEspañol #Excel365"
- },
- {
-  "id": "day23-story3",
-  "type": "STORY",
-  "at": "2026-12-15T22:00:00",
-  "media": [
-   "content/media/day23/s3.jpg"
-  ]
- },
- {
   "id": "day24-story1",
   "type": "STORY",
-  "at": "2026-12-16T09:00:00",
+  "at": "2026-12-12T09:00:00",
   "media": [
    "content/media/day24/s1.jpg"
   ]
@@ -1415,7 +1415,7 @@
  {
   "id": "day24-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-16T13:30:00",
+  "at": "2026-12-12T13:30:00",
   "media": [
    "content/media/day24/c1.jpg",
    "content/media/day24/c2.jpg",
@@ -1426,12 +1426,12 @@
    "content/media/day24/c7.jpg",
    "content/media/day24/c8.jpg"
   ],
-  "caption": "Cómo calcular el promedio sin contar los ceros en Excel\n\nTu tienda cerró lunes y sábado y anotaste 0 €. Calculas =PROMEDIO(B2:B7) y sale 333,33 €. Pero los días que abriste vendiste de media 500,00 €.\n\nPROMEDIO suma 2.000,00 € y divide entre 6 días: los ceros cuentan. Si quieres la media de los días con ventas, usa =PROMEDIO.SI(B2:B7;\">0\"), que divide entre 4.\n\nDetalle que casi nadie mira: una celda vacía no es lo mismo que un 0. PROMEDIO ignora las vacías y cuenta los ceros.\n\nLas dos medias son correctas; responden a preguntas distintas. Elige la que necesitas antes de enviar el informe.\n\nGuárdalo para tu próximo informe. Practica PROMEDIO.SI en el Distrito 5 de la ciudad. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #PROMEDIO #ExcelEnEspañol #FormulasExcel #TrucosExcel"
+  "caption": "Cómo calcular el promedio sin contar los ceros en Excel\n\nTu tienda cerró lunes y sábado y anotaste 0 €. Calculas =PROMEDIO(B2:B7) y sale 333,33 €. Pero los días que abriste vendiste de media 500,00 €.\n\nPROMEDIO suma 2.000,00 € y divide entre 6 días: los ceros cuentan. Si quieres la media de los días con ventas, usa =PROMEDIO.SI(B2:B7;\">0\"), que divide entre 4.\n\nDetalle que casi nadie mira: una celda vacía no es lo mismo que un 0. PROMEDIO ignora las vacías y cuenta los ceros.\n\nLas dos medias son correctas; responden a preguntas distintas. Elige la que necesitas antes de enviar el informe.\n\nGuárdalo para tu próximo informe. Practica PROMEDIO.SI en el Distrito 5 de la ciudad. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #PROMEDIO #ExcelEnEspañol #FormulasExcel #TrucosExcel"
  },
  {
   "id": "day24-story2",
   "type": "STORY",
-  "at": "2026-12-16T15:00:00",
+  "at": "2026-12-12T15:00:00",
   "media": [
    "content/media/day24/s2.jpg"
   ]
@@ -1439,17 +1439,17 @@
  {
   "id": "day24-reel",
   "type": "REEL",
-  "at": "2026-12-16T20:00:00",
+  "at": "2026-12-12T20:00:00",
   "media": [
    "content/media/day24/reel.mp4"
   ],
   "cover": "content/media/day24/reel_cover.jpg",
-  "caption": "Cómo calcular el promedio sin contar los ceros en Excel\n\nPROMEDIO cuenta los días a 0 € y te da 333,33 €. PROMEDIO.SI con \">0\" te da la media de los días con ventas: 500,00 €. Ojo: las celdas vacías no cuentan.\n\nGuárdalo para tu próximo informe. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #PROMEDIO #ExcelEnEspañol #TrucosExcel"
+  "caption": "Cómo calcular el promedio sin contar los ceros en Excel\n\nPROMEDIO cuenta los días a 0 € y te da 333,33 €. PROMEDIO.SI con \">0\" te da la media de los días con ventas: 500,00 €. Ojo: las celdas vacías no cuentan.\n\nGuárdalo para tu próximo informe. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #PROMEDIO #ExcelEnEspañol #TrucosExcel"
  },
  {
   "id": "day24-story3",
   "type": "STORY",
-  "at": "2026-12-16T22:00:00",
+  "at": "2026-12-12T22:00:00",
   "media": [
    "content/media/day24/s3.jpg"
   ]
@@ -1457,7 +1457,7 @@
  {
   "id": "day25-story1",
   "type": "STORY",
-  "at": "2026-12-17T09:00:00",
+  "at": "2026-12-13T09:00:00",
   "media": [
    "content/media/day25/s1.jpg"
   ]
@@ -1465,7 +1465,7 @@
  {
   "id": "day25-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-17T13:30:00",
+  "at": "2026-12-13T13:30:00",
   "media": [
    "content/media/day25/c1.jpg",
    "content/media/day25/c2.jpg",
@@ -1477,12 +1477,12 @@
    "content/media/day25/c8.jpg",
    "content/media/day25/c9.jpg"
   ],
-  "caption": "Cómo usar FILTRAR en Excel para una lista que se actualiza sola\n\nCada mañana: pones el filtro, copias los pedidos pendientes, los pegas en otra hoja… y al día siguiente, otra vez.\n\nCon FILTRAR lo haces una sola vez. Escribe Pendiente en F1 y en E3 la fórmula =FILTRAR(A2:C7;C2:C7=F1). Excel devuelve las filas que cumplen la condición y, si un pedido cambia de estado, la lista cambia sola. Cambia F1 a Enviado y verás los enviados.\n\nDos condiciones a la vez: multiplica, =FILTRAR(A2:C7;(C2:C7=F1)*(B2:B7>100)). Pendientes de más de 100 €: 1002 y 1005.\n\nRequiere Excel 365 o Excel 2021.\n\nMándaselo a quien copia y pega filtros cada mañana. Practica informes en el Distrito 5 de la ciudad. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FILTRAR #ExcelEnEspañol #FormulasExcel #Excel365"
+  "caption": "Cómo usar FILTRAR en Excel para una lista que se actualiza sola\n\nCada mañana: pones el filtro, copias los pedidos pendientes, los pegas en otra hoja… y al día siguiente, otra vez.\n\nCon FILTRAR lo haces una sola vez. Escribe Pendiente en F1 y en E3 la fórmula =FILTRAR(A2:C7;C2:C7=F1). Excel devuelve las filas que cumplen la condición y, si un pedido cambia de estado, la lista cambia sola. Cambia F1 a Enviado y verás los enviados.\n\nDos condiciones a la vez: multiplica, =FILTRAR(A2:C7;(C2:C7=F1)*(B2:B7>100)). Pendientes de más de 100 €: 1002 y 1005.\n\nRequiere Excel 365 o Excel 2021.\n\nMándaselo a quien copia y pega filtros cada mañana. Practica informes en el Distrito 5 de la ciudad. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FILTRAR #ExcelEnEspañol #FormulasExcel #Excel365"
  },
  {
   "id": "day25-story2",
   "type": "STORY",
-  "at": "2026-12-17T15:00:00",
+  "at": "2026-12-13T15:00:00",
   "media": [
    "content/media/day25/s2.jpg"
   ]
@@ -1490,17 +1490,17 @@
  {
   "id": "day25-reel",
   "type": "REEL",
-  "at": "2026-12-17T20:00:00",
+  "at": "2026-12-13T20:00:00",
   "media": [
    "content/media/day25/reel.mp4"
   ],
   "cover": "content/media/day25/reel_cover.jpg",
-  "caption": "Cómo usar FILTRAR en Excel\n\nDeja de filtrar, copiar y pegar cada mañana. =FILTRAR(A2:C7;C2:C7=F1) te da los pedidos pendientes y se actualiza sola. Cambia F1 y cambia la lista. Requiere Excel 365 o 2021.\n\nMándaselo a quien copia filtros cada día. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FILTRAR #ExcelEnEspañol #Excel365"
+  "caption": "Cómo usar FILTRAR en Excel\n\nDeja de filtrar, copiar y pegar cada mañana. =FILTRAR(A2:C7;C2:C7=F1) te da los pedidos pendientes y se actualiza sola. Cambia F1 y cambia la lista. Requiere Excel 365 o 2021.\n\nMándaselo a quien copia filtros cada día. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FILTRAR #ExcelEnEspañol #Excel365"
  },
  {
   "id": "day25-story3",
   "type": "STORY",
-  "at": "2026-12-17T22:00:00",
+  "at": "2026-12-13T22:00:00",
   "media": [
    "content/media/day25/s3.jpg"
   ]
@@ -1508,7 +1508,7 @@
  {
   "id": "day26-story1",
   "type": "STORY",
-  "at": "2026-12-18T09:00:00",
+  "at": "2026-12-14T09:00:00",
   "media": [
    "content/media/day26/s1.jpg"
   ]
@@ -1516,7 +1516,7 @@
  {
   "id": "day26-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-18T13:30:00",
+  "at": "2026-12-14T13:30:00",
   "media": [
    "content/media/day26/c1.jpg",
    "content/media/day26/c2.jpg",
@@ -1528,12 +1528,12 @@
    "content/media/day26/c8.jpg",
    "content/media/day26/c9.jpg"
   ],
-  "caption": "Cómo calcular comisiones por tramos en Excel con BUSCARV\n\nSi tu comisión depende de cuánto vendes, no necesitas anidar cinco SI. Monta una tabla de tramos ordenada de menor a mayor (desde 0 €) y usa BUSCARV con coincidencia aproximada: =BUSCARV(B2;$E$2:$F$5;2;1).\n\nEl 1 (o VERDADERO) le dice a Excel: busca el tramo más alto que no supere la venta. Marta vende 12.350,00 € → cae en el tramo de 10.000 € → 4 % → 494,00 € de comisión.\n\nSi pones 0 (FALSO), solo encuentra ventas exactas como 5.000 € y el resto da #N/D.\n\nLos tramos de este ejemplo son inventados: usa los de tu empresa.\n\nGuárdalo para el cierre de mes. Practica nóminas y tramos en el Distrito 9 de la ciudad. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #FormulasExcel #Comisiones"
+  "caption": "Cómo calcular comisiones por tramos en Excel con BUSCARV\n\nSi tu comisión depende de cuánto vendes, no necesitas anidar cinco SI. Monta una tabla de tramos ordenada de menor a mayor (desde 0 €) y usa BUSCARV con coincidencia aproximada: =BUSCARV(B2;$E$2:$F$5;2;1).\n\nEl 1 (o VERDADERO) le dice a Excel: busca el tramo más alto que no supere la venta. Marta vende 12.350,00 € → cae en el tramo de 10.000 € → 4 % → 494,00 € de comisión.\n\nSi pones 0 (FALSO), solo encuentra ventas exactas como 5.000 € y el resto da #N/D.\n\nLos tramos de este ejemplo son inventados: usa los de tu empresa.\n\nGuárdalo para el cierre de mes. Practica nóminas y tramos en el Distrito 9 de la ciudad. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #FormulasExcel #Comisiones"
  },
  {
   "id": "day26-story2",
   "type": "STORY",
-  "at": "2026-12-18T15:00:00",
+  "at": "2026-12-14T15:00:00",
   "media": [
    "content/media/day26/s2.jpg"
   ]
@@ -1541,27 +1541,27 @@
  {
   "id": "app-demo08",
   "type": "REEL",
-  "at": "2026-12-18T17:00:00",
+  "at": "2026-12-14T17:00:00",
   "media": [
    "content/media/app/demo08.mp4"
   ],
   "cover_ms": 600,
-  "caption": "Antes de cada reto, la explicación: sintaxis, ejemplo y luego la aplicas tú. Así se aprende Excel sin memorizar.\n\nPruébalo gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #FormulasExcel"
+  "caption": "Antes de cada reto, la explicación: sintaxis, ejemplo y luego la aplicas tú. Así se aprende Excel sin memorizar.\n\nPruébalo gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #CursoDeExcel #FormulasExcel"
  },
  {
   "id": "day26-reel",
   "type": "REEL",
-  "at": "2026-12-18T20:00:00",
+  "at": "2026-12-14T20:00:00",
   "media": [
    "content/media/day26/reel.mp4"
   ],
   "cover": "content/media/day26/reel_cover.jpg",
-  "caption": "Cómo calcular comisiones por tramos en Excel\n\nUna tabla de tramos ordenada desde 0 y BUSCARV con 1 al final: busca el tramo más alto que no supere la venta. Sin anidar SI. Tramos de ejemplo, inventados.\n\nGuárdalo para el cierre de mes. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #Comisiones"
+  "caption": "Cómo calcular comisiones por tramos en Excel\n\nUna tabla de tramos ordenada desde 0 y BUSCARV con 1 al final: busca el tramo más alto que no supere la venta. Sin anidar SI. Tramos de ejemplo, inventados.\n\nGuárdalo para el cierre de mes. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARV #ExcelEnEspañol #Comisiones"
  },
  {
   "id": "day26-story3",
   "type": "STORY",
-  "at": "2026-12-18T22:00:00",
+  "at": "2026-12-14T22:00:00",
   "media": [
    "content/media/day26/s3.jpg"
   ]
@@ -1569,7 +1569,7 @@
  {
   "id": "day27-story1",
   "type": "STORY",
-  "at": "2026-12-19T09:00:00",
+  "at": "2026-12-15T09:00:00",
   "media": [
    "content/media/day27/s1.jpg"
   ]
@@ -1577,7 +1577,7 @@
  {
   "id": "day27-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-19T13:30:00",
+  "at": "2026-12-15T13:30:00",
   "media": [
    "content/media/day27/c1.jpg",
    "content/media/day27/c2.jpg",
@@ -1589,12 +1589,12 @@
    "content/media/day27/c8.jpg",
    "content/media/day27/c9.jpg"
   ],
-  "caption": "Cómo buscar a la izquierda en Excel: INDICE + COINCIDIR vs BUSCARX\n\nTienes el código del producto en la columna B y el nombre en la A. BUSCARV solo busca en la primera columna de la tabla, así que =BUSCARV(E2;A2:B6;1;0) busca el código entre los nombres y devuelve #N/D.\n\nDos soluciones:\n1) INDICE + COINCIDIR, que funciona en cualquier versión: =INDICE(A2:A6;COINCIDIR(E2;B2:B6;0)). COINCIDIR te da la posición (4) e INDICE el nombre de esa posición (Webcam).\n2) BUSCARX, más fácil de leer: =BUSCARX(E2;B2:B6;A2:A6). Requiere Excel 365 o Excel 2021.\n\n¿Cuál usar? Si compartes el archivo con gente que tiene versiones antiguas, INDICE + COINCIDIR. Si todos tenéis 365, BUSCARX.\n\nMándaselo a quien todavía mueve columnas para que BUSCARV funcione. Practica búsquedas en el Distrito 6. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARX #ExcelEnEspañol #FormulasExcel #BUSCARV"
+  "caption": "Cómo buscar a la izquierda en Excel: INDICE + COINCIDIR vs BUSCARX\n\nTienes el código del producto en la columna B y el nombre en la A. BUSCARV solo busca en la primera columna de la tabla, así que =BUSCARV(E2;A2:B6;1;0) busca el código entre los nombres y devuelve #N/D.\n\nDos soluciones:\n1) INDICE + COINCIDIR, que funciona en cualquier versión: =INDICE(A2:A6;COINCIDIR(E2;B2:B6;0)). COINCIDIR te da la posición (4) e INDICE el nombre de esa posición (Webcam).\n2) BUSCARX, más fácil de leer: =BUSCARX(E2;B2:B6;A2:A6). Requiere Excel 365 o Excel 2021.\n\n¿Cuál usar? Si compartes el archivo con gente que tiene versiones antiguas, INDICE + COINCIDIR. Si todos tenéis 365, BUSCARX.\n\nMándaselo a quien todavía mueve columnas para que BUSCARV funcione. Practica búsquedas en el Distrito 6. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARX #ExcelEnEspañol #FormulasExcel #BUSCARV"
  },
  {
   "id": "day27-story2",
   "type": "STORY",
-  "at": "2026-12-19T15:00:00",
+  "at": "2026-12-15T15:00:00",
   "media": [
    "content/media/day27/s2.jpg"
   ]
@@ -1602,17 +1602,17 @@
  {
   "id": "day27-reel",
   "type": "REEL",
-  "at": "2026-12-19T20:00:00",
+  "at": "2026-12-15T20:00:00",
   "media": [
    "content/media/day27/reel.mp4"
   ],
   "cover": "content/media/day27/reel_cover.jpg",
-  "caption": "Cómo buscar a la izquierda en Excel\n\nBUSCARV solo busca en la primera columna y devuelve #N/D. INDICE + COINCIDIR funciona en cualquier versión; BUSCARX (365 / 2021) lo hace en una sola fórmula.\n\nMándaselo a quien mueve columnas para que BUSCARV funcione. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARX #ExcelEnEspañol #BUSCARV"
+  "caption": "Cómo buscar a la izquierda en Excel\n\nBUSCARV solo busca en la primera columna y devuelve #N/D. INDICE + COINCIDIR funciona en cualquier versión; BUSCARX (365 / 2021) lo hace en una sola fórmula.\n\nMándaselo a quien mueve columnas para que BUSCARV funcione. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #BUSCARX #ExcelEnEspañol #BUSCARV"
  },
  {
   "id": "day27-story3",
   "type": "STORY",
-  "at": "2026-12-19T22:00:00",
+  "at": "2026-12-15T22:00:00",
   "media": [
    "content/media/day27/s3.jpg"
   ]
@@ -1620,7 +1620,7 @@
  {
   "id": "day28-story1",
   "type": "STORY",
-  "at": "2026-12-20T09:00:00",
+  "at": "2026-12-16T09:00:00",
   "media": [
    "content/media/day28/s1.jpg"
   ]
@@ -1628,7 +1628,7 @@
  {
   "id": "inside-inside04",
   "type": "CAROUSEL",
-  "at": "2026-12-20T11:00:00",
+  "at": "2026-12-16T11:00:00",
   "media": [
    "content/media/inside/inside04_c1.jpg",
    "content/media/inside/inside04_c2.jpg",
@@ -1637,12 +1637,12 @@
    "content/media/inside/inside04_c5.jpg",
    "content/media/inside/inside04_c6.jpg"
   ],
-  "caption": "Cómo es una misión de Excel por dentro: «Descontar devoluciones».\n\nEnunciado: suma B2:B4 respetando las devoluciones negativas. Primer intento: =SUMA(B2:B3) → la app avisa de que calculaste −43 y el objetivo es 273. Pista de nivel 1, segundo intento: =SUMA(B2:B4) → validada, +225 XP.\n\nAsí se aprende: equivocándote sin miedo. Pruébalo gratis → link en la bio.\n\n#Excel #AprenderExcel #ExcelEnEspañol #FormulaSUMA #TrucosExcel"
+  "caption": "Cómo es una misión de Excel por dentro: «Descontar devoluciones».\n\nEnunciado: suma B2:B4 respetando las devoluciones negativas. Primer intento: =SUMA(B2:B3) → la app avisa de que calculaste −43 y el objetivo es 273. Pista de nivel 1, segundo intento: =SUMA(B2:B4) → validada, +225 XP.\n\nAsí se aprende: equivocándote sin miedo. Pruébalo gratis → link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n#Excel #AprenderExcel #ExcelEnEspañol #FormulaSUMA #TrucosExcel"
  },
  {
   "id": "day28-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-20T13:30:00",
+  "at": "2026-12-16T13:30:00",
   "media": [
    "content/media/day28/c1.jpg",
    "content/media/day28/c2.jpg",
@@ -1654,12 +1654,12 @@
    "content/media/day28/c8.jpg",
    "content/media/day28/c9.jpg"
   ],
-  "caption": "Fórmulas de Excel más usadas en el trabajo: chuleta con ejemplos\n\nSi tu trabajo pasa por Excel, estas 10 aparecen una y otra vez: SUMA, PROMEDIO, MAX, MIN, CONTARA, CONTAR.SI, SUMAR.SI, SI, BUSCARV y SI.ERROR.\n\nTodas van aplicadas a la misma tabla de ventas (slide 2), con su resultado, para que puedas copiarla en tu Excel y comprobar cada una. En E2 escribe Norte para las que usan un criterio.\n\nConsejo: no intentes memorizarlas. Practica una al día hasta que la escribas sin mirar; así es como se quedan.\n\nGuárdalo para tenerlo a mano en tu próxima entrevista o en tu próximo cierre. La prueba técnica del Distrito 7 de la ciudad usa estas fórmulas. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FormulasExcel #ExcelEnEspañol #TrucosExcel #AprenderExcel"
+  "caption": "Fórmulas de Excel más usadas en el trabajo: chuleta con ejemplos\n\nSi tu trabajo pasa por Excel, estas 10 aparecen una y otra vez: SUMA, PROMEDIO, MAX, MIN, CONTARA, CONTAR.SI, SUMAR.SI, SI, BUSCARV y SI.ERROR.\n\nTodas van aplicadas a la misma tabla de ventas (slide 2), con su resultado, para que puedas copiarla en tu Excel y comprobar cada una. En E2 escribe Norte para las que usan un criterio.\n\nConsejo: no intentes memorizarlas. Practica una al día hasta que la escribas sin mirar; así es como se quedan.\n\nGuárdalo para tenerlo a mano en tu próxima entrevista o en tu próximo cierre. La prueba técnica del Distrito 7 de la ciudad usa estas fórmulas. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FormulasExcel #ExcelEnEspañol #TrucosExcel #AprenderExcel"
  },
  {
   "id": "day28-story2",
   "type": "STORY",
-  "at": "2026-12-20T15:00:00",
+  "at": "2026-12-16T15:00:00",
   "media": [
    "content/media/day28/s2.jpg"
   ]
@@ -1667,17 +1667,17 @@
  {
   "id": "day28-reel",
   "type": "REEL",
-  "at": "2026-12-20T20:00:00",
+  "at": "2026-12-16T20:00:00",
   "media": [
    "content/media/day28/reel.mp4"
   ],
   "cover": "content/media/day28/reel_cover.jpg",
-  "caption": "Fórmulas de Excel más usadas en el trabajo\n\nSUMA, PROMEDIO, MAX, MIN, CONTARA, CONTAR.SI, SUMAR.SI, SI, BUSCARV y SI.ERROR. En el carrusel tienes cada una con ejemplo y resultado.\n\nGuárdalo para tu próxima entrevista. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FormulasExcel #ExcelEnEspañol #AprenderExcel"
+  "caption": "Fórmulas de Excel más usadas en el trabajo\n\nSUMA, PROMEDIO, MAX, MIN, CONTARA, CONTAR.SI, SUMAR.SI, SI, BUSCARV y SI.ERROR. En el carrusel tienes cada una con ejemplo y resultado.\n\nGuárdalo para tu próxima entrevista. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FormulasExcel #ExcelEnEspañol #AprenderExcel"
  },
  {
   "id": "day28-story3",
   "type": "STORY",
-  "at": "2026-12-20T22:00:00",
+  "at": "2026-12-16T22:00:00",
   "media": [
    "content/media/day28/s3.jpg"
   ]
@@ -1685,7 +1685,7 @@
  {
   "id": "day29-story1",
   "type": "STORY",
-  "at": "2026-12-21T09:00:00",
+  "at": "2026-12-17T09:00:00",
   "media": [
    "content/media/day29/s1.jpg"
   ]
@@ -1693,7 +1693,7 @@
  {
   "id": "day29-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-21T13:30:00",
+  "at": "2026-12-17T13:30:00",
   "media": [
    "content/media/day29/c1.jpg",
    "content/media/day29/c2.jpg",
@@ -1705,12 +1705,12 @@
    "content/media/day29/c8.jpg",
    "content/media/day29/c9.jpg"
   ],
-  "caption": "Fechas como texto en Excel: cómo detectarlas y convertirlas\n\nPides la fecha del último pedido con =MAX(B2:B7) y Excel dice 09/12/2026. Pero hay un pedido del 19/12. ¿Qué pasa? Esas fechas no son fechas: son texto que parece una fecha, algo típico cuando pegas datos de otro programa o de una web.\n\nMAX, CONTAR y los filtros por fecha ignoran el texto. Pista visual: el texto se alinea a la izquierda y las fechas reales, a la derecha. Para confirmarlo, usa =ESNUMERO(B2): una fecha real da VERDADERO.\n\nCómo arreglarlo:\n1) Selecciona la columna > Datos > Texto en columnas > Siguiente > Siguiente > Fecha: DMA > Finalizar.\n2) O en una celda: =FECHANUMERO(B5) y dale formato de fecha.\n\nMándaselo a quien pega datos de otro sistema en Excel. Practica la limpieza de datos en el Distrito 3. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FechasExcel #ExcelEnEspañol #FormulasExcel #TrucosExcel"
+  "caption": "Fechas como texto en Excel: cómo detectarlas y convertirlas\n\nPides la fecha del último pedido con =MAX(B2:B7) y Excel dice 09/12/2026. Pero hay un pedido del 19/12. ¿Qué pasa? Esas fechas no son fechas: son texto que parece una fecha, algo típico cuando pegas datos de otro programa o de una web.\n\nMAX, CONTAR y los filtros por fecha ignoran el texto. Pista visual: el texto se alinea a la izquierda y las fechas reales, a la derecha. Para confirmarlo, usa =ESNUMERO(B2): una fecha real da VERDADERO.\n\nCómo arreglarlo:\n1) Selecciona la columna > Datos > Texto en columnas > Siguiente > Siguiente > Fecha: DMA > Finalizar.\n2) O en una celda: =FECHANUMERO(B5) y dale formato de fecha.\n\nMándaselo a quien pega datos de otro sistema en Excel. Practica la limpieza de datos en el Distrito 3. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FechasExcel #ExcelEnEspañol #FormulasExcel #TrucosExcel"
  },
  {
   "id": "day29-story2",
   "type": "STORY",
-  "at": "2026-12-21T15:00:00",
+  "at": "2026-12-17T15:00:00",
   "media": [
    "content/media/day29/s2.jpg"
   ]
@@ -1718,17 +1718,17 @@
  {
   "id": "day29-reel",
   "type": "REEL",
-  "at": "2026-12-21T20:00:00",
+  "at": "2026-12-17T20:00:00",
   "media": [
    "content/media/day29/reel.mp4"
   ],
   "cover": "content/media/day29/reel_cover.jpg",
-  "caption": "Fechas como texto en Excel\n\nMAX te dice que el último pedido fue el 09/12, pero hubo uno el 19/12. Esas fechas son texto. Detéctalas con =ESNUMERO y conviértelas con Datos > Texto en columnas o con FECHANUMERO.\n\nMándaselo a quien pega datos de otro sistema. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FechasExcel #ExcelEnEspañol #TrucosExcel"
+  "caption": "Fechas como texto en Excel\n\nMAX te dice que el último pedido fue el 09/12, pero hubo uno el 19/12. Esas fechas son texto. Detéctalas con =ESNUMERO y conviértelas con Datos > Texto en columnas o con FECHANUMERO.\n\nMándaselo a quien pega datos de otro sistema. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #FechasExcel #ExcelEnEspañol #TrucosExcel"
  },
  {
   "id": "day29-story3",
   "type": "STORY",
-  "at": "2026-12-21T22:00:00",
+  "at": "2026-12-17T22:00:00",
   "media": [
    "content/media/day29/s3.jpg"
   ]
@@ -1736,7 +1736,7 @@
  {
   "id": "day30-story1",
   "type": "STORY",
-  "at": "2026-12-22T09:00:00",
+  "at": "2026-12-18T09:00:00",
   "media": [
    "content/media/day30/s1.jpg"
   ]
@@ -1744,7 +1744,7 @@
  {
   "id": "day30-carrusel",
   "type": "CAROUSEL",
-  "at": "2026-12-22T13:30:00",
+  "at": "2026-12-18T13:30:00",
   "media": [
    "content/media/day30/c1.jpg",
    "content/media/day30/c2.jpg",
@@ -1756,12 +1756,12 @@
    "content/media/day30/c8.jpg",
    "content/media/day30/c9.jpg"
   ],
-  "caption": "Examen de Excel con respuestas: 5 preguntas para ponerte a prueba\n\nDespués de 30 días de fórmulas, toca comprobar qué se ha quedado. Cinco preguntas, tres opciones cada una y ni una trampa imposible: SUMA con negativos, SI con el caso límite, PROMEDIO.SI, CONTAR.SI y las horas de un turno de noche.\n\nCómo hacerlo: sin abrir Excel, apunta A, B o C en cada pregunta y compara con las respuestas de la slide 8. Cada respuesta lleva la explicación en una línea.\n\n¿Fallaste alguna? Vuelve al post de ese tema y practícala hasta que salga sola.\n\nGuárdalo y repítelo dentro de una semana. Y si quieres seguir, la ciudad tiene 10 distritos y 100 misiones; el primero es gratis. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #ExamenExcel #ExcelEnEspañol #FormulasExcel #AprenderExcel"
+  "caption": "Examen de Excel con respuestas: 5 preguntas para ponerte a prueba\n\nDespués de 30 días de fórmulas, toca comprobar qué se ha quedado. Cinco preguntas, tres opciones cada una y ni una trampa imposible: SUMA con negativos, SI con el caso límite, PROMEDIO.SI, CONTAR.SI y las horas de un turno de noche.\n\nCómo hacerlo: sin abrir Excel, apunta A, B o C en cada pregunta y compara con las respuestas de la slide 8. Cada respuesta lleva la explicación en una línea.\n\n¿Fallaste alguna? Vuelve al post de ese tema y practícala hasta que salga sola.\n\nGuárdalo y repítelo dentro de una semana. Y si quieres seguir, la ciudad tiene 10 distritos y 100 misiones; el primero es gratis. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #ExamenExcel #ExcelEnEspañol #FormulasExcel #AprenderExcel"
  },
  {
   "id": "day30-story2",
   "type": "STORY",
-  "at": "2026-12-22T15:00:00",
+  "at": "2026-12-18T15:00:00",
   "media": [
    "content/media/day30/s2.jpg"
   ]
@@ -1769,17 +1769,17 @@
  {
   "id": "day30-reel",
   "type": "REEL",
-  "at": "2026-12-22T20:00:00",
+  "at": "2026-12-18T20:00:00",
   "media": [
    "content/media/day30/reel.mp4"
   ],
   "cover": "content/media/day30/reel_cover.jpg",
-  "caption": "Examen de Excel con respuestas\n\nTurno de 22:00 a 06:00: ¿cuántas horas devuelve Excel? Si restas sin más, sale -16. Con =RESIDUO(C2-B2;1)*24 sale 8. Las otras 4 preguntas del examen final, en el carrusel.\n\nGuárdalo y repítelo en una semana. Link en la bio.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #ExamenExcel #ExcelEnEspañol #AprenderExcel"
+  "caption": "Examen de Excel con respuestas\n\nTurno de 22:00 a 06:00: ¿cuántas horas devuelve Excel? Si restas sin más, sale -16. Con =RESIDUO(C2-B2;1)*24 sale 8. Las otras 4 preguntas del examen final, en el carrusel.\n\nGuárdalo y repítelo en una semana. Link en la bio.\n💬 Comenta MISION y te mando el enlace por DM para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #ExamenExcel #ExcelEnEspañol #AprenderExcel"
  },
  {
   "id": "day30-story3",
   "type": "STORY",
-  "at": "2026-12-22T22:00:00",
+  "at": "2026-12-18T22:00:00",
   "media": [
    "content/media/day30/s3.jpg"
   ]
