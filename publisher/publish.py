@@ -145,6 +145,46 @@ def fb_publish(post):
     return fb_call("POST", f"{FB_PAGE}/feed", params, tok)["id"]
 
 
+import random, unicodedata
+
+REPLIES = [
+    "@{u} ¡Aquí la tienes! Entra en aprendeexceljugando.com (también en el link de la bio) y practícala gratis en el Distrito 1 🎮",
+    "@{u} ¡Hecho! La misión te espera gratis en aprendeexceljugando.com 👉 link en la bio",
+    "@{u} ¡Vamos! Crea tu cuenta gratis en aprendeexceljugando.com y empieza por el Distrito 1 💪",
+]
+
+
+def _norm(t):
+    return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode().lower()
+
+
+def answer_comments(state):
+    """Responde a quien comenta MISION en los posts de los últimos 30 días."""
+    done = state.setdefault("_respondidos", [])
+    me = call("GET", IG_USER, {"fields": "username"}).get("username", "")
+    media = call("GET", f"{IG_USER}/media", {"fields": "id,timestamp", "limit": "40"}).get("data", [])
+    limit = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)
+    n = 0
+    for m in media:
+        if dt.datetime.fromisoformat(m["timestamp"].replace("+0000", "+00:00")) < limit:
+            continue
+        comments = call("GET", f"{m['id']}/comments",
+                        {"fields": "id,text,username,replies{username}", "limit": "50"}).get("data", [])
+        for c in comments:
+            if c["id"] in done or c.get("username") == me or "mision" not in _norm(c.get("text", "")):
+                continue
+            if any(r.get("username") == me for r in c.get("replies", {}).get("data", [])):
+                done.append(c["id"]); continue
+            if DRY:
+                print(f"   DRY_RUN: respondería a @{c.get('username')}")
+                continue
+            call("POST", f"{c['id']}/replies", {"message": random.choice(REPLIES).format(u=c.get("username", ""))})
+            done.append(c["id"]); n += 1
+    state["_respondidos"] = done[-2000:]
+    if n:
+        print(f"Respuestas a MISION: {n}")
+
+
 def main():
     cal = json.load(open(CAL, encoding="utf-8"))
     state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {}
@@ -186,6 +226,10 @@ def main():
             retries[post["id"]] = retries.get(post["id"], 0) + 1
             if retries[post["id"]] >= 3:
                 state[post["id"]] = {"status": "error", "error": str(e)[:500], "at": now.isoformat()}
+    try:
+        answer_comments(state)
+    except Exception as e:  # las respuestas nunca frenan la publicación
+        print(f"Comentarios: {e}", file=sys.stderr)
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     json.dump(state, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if errors:
