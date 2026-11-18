@@ -39,6 +39,20 @@ def main():
             print("Página:", a.get("id"), a.get("name"), a.get("tasks"))
     except Exception as e:
         print("páginas: no disponible:", e)
+    os.environ.setdefault("FB_PAGE_ID", "1391043200767851")
+    P.FB_PAGE = os.environ["FB_PAGE_ID"]
+    tok = P.fb_token()
+    if tok:
+        try:
+            img = next(p for p in cal if p["type"] == "STORY")["media"][0]
+            pid = P.fb_call("POST", f"{P.FB_PAGE}/photos", {"url": P.media_url(img), "published": "false"}, tok)["id"]
+            P.fb_call("DELETE", pid, {}, tok)
+            print("Facebook: OK (foto de prueba subida sin publicar y borrada)")
+        except Exception as e:
+            ok = False
+            print("Facebook: ERROR", e)
+    else:
+        print("Facebook: sin acceso")
     sys.exit(0 if ok else 1)
 
 

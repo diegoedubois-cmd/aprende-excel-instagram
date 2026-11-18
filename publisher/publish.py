@@ -25,7 +25,7 @@ def call(method, path, params):
     if method == "GET":
         req = urllib.request.Request(url + "?" + data.decode())
     else:
-        req = urllib.request.Request(url, data=data, method="POST")
+        req = urllib.request.Request(url, data=data, method=method)
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
             return json.load(r)
@@ -119,12 +119,27 @@ def fb_call(method, path, params, tok):
         TOKEN = old
 
 
+FB_LINK = "https://aprendeexceljugando.com/?utm_source=facebook&utm_medium=social&utm_campaign=organico"
+
+
+def fb_caption(text):
+    """En Facebook los enlaces son clicables: cambia «link en la bio» por la web."""
+    import re
+    text = text.replace(" (también en el link de la bio)", "")
+    return re.sub(r"\s*(?:→|:|\.)?\s*[Ll]ink en la bio", f": {FB_LINK}", text)
+
+
 def fb_publish(post):
-    """Publica el mismo contenido en la página de Facebook. Historias de Facebook no se publican."""
+    """Publica el mismo contenido en la página de Facebook (reels, carruseles, imágenes e historias de imagen)."""
     tok = fb_token()
-    if not tok or post["type"] == "STORY":
+    if not tok:
         return None
-    kind, media, caption = post["type"], post["media"], post.get("caption", "")
+    kind, media, caption = post["type"], post["media"], fb_caption(post.get("caption", ""))
+    if kind == "STORY":
+        if is_video(media[0]):
+            return None
+        pid = fb_call("POST", f"{FB_PAGE}/photos", {"url": media_url(media[0]), "published": "false"}, tok)["id"]
+        return fb_call("POST", f"{FB_PAGE}/photo_stories", {"photo_id": pid}, tok).get("post_id", pid)
     if kind == "REEL":
         vid = fb_call("POST", f"{FB_PAGE}/video_reels", {"upload_phase": "start"}, tok)["video_id"]
         req = urllib.request.Request(
@@ -180,6 +195,20 @@ def answer_comments(state):
                 continue
             call("POST", f"{c['id']}/replies", {"message": random.choice(REPLIES).format(u=c.get("username", ""))})
             done.append(c["id"]); n += 1
+    tok = fb_token()
+    if tok:
+        posts = fb_call("GET", f"{FB_PAGE}/posts", {"fields": "id,created_time", "limit": "40"}, tok).get("data", [])
+        for p in posts:
+            for c in fb_call("GET", f"{p['id']}/comments", {"fields": "id,message,from,comments{from}", "limit": "50"}, tok).get("data", []):
+                who = (c.get("from") or {}).get("id")
+                if c["id"] in done or who == FB_PAGE or "mision" not in _norm(c.get("message", "")):
+                    continue
+                if any((r.get("from") or {}).get("id") == FB_PAGE for r in c.get("comments", {}).get("data", [])):
+                    done.append(c["id"]); continue
+                if DRY:
+                    print("   DRY_RUN: respondería en Facebook"); continue
+                fb_call("POST", f"{c['id']}/comments", {"message": f"¡Aquí la tienes! Practícala gratis en el Distrito 1: {FB_LINK} 🎮"}, tok)
+                done.append(c["id"]); n += 1
     state["_respondidos"] = done[-2000:]
     if n:
         print(f"Respuestas a MISION: {n}")
