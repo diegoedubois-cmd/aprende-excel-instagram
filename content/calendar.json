@@ -268,7 +268,7 @@
   "type": "REEL",
   "at": "2026-11-21T18:00:00",
   "media": [
-   "extra/avatar01.mp4"
+   "content/media/extra/avatar01.mp4"
   ],
   "cover_ms": 600,
   "caption": "¿Excel te da pánico? 😅\nHicimos un juego para aprenderlo: te explica cada fórmula con un ejemplo y luego la usas en misiones reales de trabajo (facturas, ventas, inventario).\n\n✅ Te corrige al momento\n✅ Pistas si te atascas, sin darte la respuesta\n✅ Monedas y distritos que vas desbloqueando\n\nEl primer distrito es gratis → link en la bio.\n💬 Comenta MISION y te respondo con el enlace.\n\nPresentadora creada con IA · imágenes reales de la app.\n\n#excel #aprendeexcel #exceltips #cursodeexcel #trucosexcel"
@@ -329,7 +329,7 @@
   "type": "REEL",
   "at": "2026-11-22T17:00:00",
   "media": [
-   "extra/pov01.mp4"
+   "content/media/extra/pov01.mp4"
   ],
   "cover_ms": 3200,
   "caption": "Jefe: «tienes toda la tarde». Yo: 10 segundos 😎\nIZQUIERDA + HALLAR separa el nombre de cualquier lista.\n\n=IZQUIERDA(A2;HALLAR(\" \";A2)-1)\n(Si tu Excel usa coma, cambia ; por ,)\n\nMándaselo a quien todavía lo hace a mano.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #trucosexcel #exceltips #oficina #aprendeexcel"
@@ -450,7 +450,7 @@
   "type": "REEL",
   "at": "2026-11-24T17:00:00",
   "media": [
-   "extra/pov02.mp4"
+   "content/media/extra/pov02.mp4"
   ],
   "cover_ms": 3200,
   "caption": "Pregunta de entrevista de Excel: ¿cuántas facturas pasan de 1.000 €? 🧑‍💼\nCONTAR.SI lo cuenta en una fórmula, aunque tengas 10.000 filas.\n\n=CONTAR.SI(B2:B9;\">1000\")\n\nGuárdalo para tu próxima entrevista.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #entrevistadetrabajo #trucosexcel #aprendeexcel #oficina"
@@ -577,7 +577,7 @@
   "type": "REEL",
   "at": "2026-11-26T17:00:00",
   "media": [
-   "extra/pov03.mp4"
+   "content/media/extra/pov03.mp4"
   ],
   "cover_ms": 3200,
   "caption": "Jefe: «el total de Madrid, para ya» 📞\nSUMAR.SI suma solo lo que cumple una condición.\n\n=SUMAR.SI(A2:A7;\"Madrid\";C2:C7)\n\nMándaselo a ese compañero que filtra y suma con la calculadora.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #trucosexcel #ventas #aprendeexcel #oficina"
@@ -699,7 +699,7 @@
   "type": "REEL",
   "at": "2026-11-28T17:00:00",
   "media": [
-   "extra/pov04.mp4"
+   "content/media/extra/pov04.mp4"
   ],
   "cover_ms": 3200,
   "caption": "Deja de borrar duplicados a mano 😩\nUNICOS te da la lista limpia y se actualiza sola (Excel 365 y 2021).\n\n=UNICOS(A2:A9)\n\nMándaselo a quien lo necesita hoy.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #trucosexcel #excel365 #aprendeexcel #productividad"
@@ -872,7 +872,7 @@
   "type": "REEL",
   "at": "2026-12-01T17:00:00",
   "media": [
-   "extra/pov05.mp4"
+   "content/media/extra/pov05.mp4"
   ],
   "cover_ms": 3200,
   "caption": "«Márcalas una por una» 🙃\nCon SI, Excel decide por ti: si no hay fecha de pago, está pendiente.\n\n=SI(B2=\"\";\"Pendiente\";\"Pagada\")\n\nGuárdalo para el cierre de mes.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #facturas #trucosexcel #aprendeexcel #contabilidad"
@@ -999,7 +999,7 @@
   "type": "REEL",
   "at": "2026-12-03T17:00:00",
   "media": [
-   "extra/pov06.mp4"
+   "content/media/extra/pov06.mp4"
   ],
   "cover_ms": 3200,
   "caption": "Pregunta de entrevista: busca precios en otra hoja 🧑‍💼\nBUSCARX lo hace en una fórmula (Excel 365 y 2021; en versiones antiguas, BUSCARV).\n\n=BUSCARX(A2;Tarifa!A:A;Tarifa!C:C)\n\nGuárdalo y pruébalo mañana en el trabajo.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #buscarx #entrevistadetrabajo #aprendeexcel #trucosexcel"
