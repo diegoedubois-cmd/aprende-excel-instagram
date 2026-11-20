@@ -1,0 +1,25 @@
+name: Transcribir audio
+on:
+  workflow_dispatch:
+    inputs:
+      carpeta:
+        description: "Carpeta dentro de content/raw"
+        required: true
+permissions:
+  contents: write
+jobs:
+  transcribir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install faster-whisper==1.1.1
+      - run: python tools/transcribir.py "content/raw/${{ inputs.carpeta }}"
+      - name: Guardar
+        run: |
+          git config user.name "publicador-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/raw
+          git commit -m "Transcripción: ${{ inputs.carpeta }}" && git pull --rebase && git push
