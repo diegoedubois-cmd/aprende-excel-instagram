@@ -6,16 +6,31 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import publish as P
 
 
-def main():
-    cal = json.load(open(P.CAL, encoding="utf-8"))
+def select_posts(cal, requested):
+    if requested.strip():
+        want = [item.strip() for item in requested.split(",") if item.strip()]
+        found = {p["id"]: p for p in cal}
+        missing = [item for item in want if item not in found]
+        if not want or missing:
+            raise ValueError("IDs de ensayo desconocidos o vacíos: " + ", ".join(missing))
+        return [found[item] for item in dict.fromkeys(want)]
     picks = []
     for cond in (lambda p: p["type"] == "REEL" and p.get("cover"),
                  lambda p: p["type"] == "REEL" and p.get("cover_ms") is not None,
                  lambda p: p["type"] == "CAROUSEL"):
-        picks.append(next(p for p in cal if cond(p)))
-    if os.environ.get("ENSAYO_IDS"):
-        want = os.environ["ENSAYO_IDS"].split(",")
-        picks = [p for p in cal if p["id"] in want]
+        match = next((p for p in cal if cond(p)), None)
+        if match is None:
+            raise ValueError("Faltan publicaciones para el ensayo predeterminado")
+        picks.append(match)
+    return picks
+
+
+def main():
+    cal = json.load(open(P.CAL, encoding="utf-8"))
+    try:
+        picks = select_posts(cal, os.environ.get("ENSAYO_IDS", ""))
+    except ValueError as e:
+        sys.exit(str(e))
     ok = True
     for post in picks:
         print(f"→ ensayo {post['id']} ({post['type']}, {len(post['media'])} archivos, caption {len(post.get('caption',''))} car.)")

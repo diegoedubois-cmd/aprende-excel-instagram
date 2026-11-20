@@ -259,8 +259,10 @@ def main():
         answer_comments(state)
     except Exception as e:  # las respuestas nunca frenan la publicación
         print(f"Comentarios: {e}", file=sys.stderr)
-    os.makedirs(os.path.dirname(STATE), exist_ok=True)
-    json.dump(state, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if not DRY:
+        os.makedirs(os.path.dirname(STATE), exist_ok=True)
+        with open(STATE, "w", encoding="utf-8") as state_file:
+            json.dump(state, state_file, ensure_ascii=False, indent=1)
     if errors:
         sys.exit(1)
 
