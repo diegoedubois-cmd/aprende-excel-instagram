@@ -223,6 +223,16 @@
   "caption": "Cómo fijar una celda en Excel con F4\n\nCopias =B2*B1 hacia abajo y la comisión sale en millones: las referencias se mueven. Pulsa F4 sobre B1 y queda $B$1, fija. En Mac, Cmd+T.\n\nGuárdalo para tu próxima fórmula. Practica gratis: link en la bio.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #AtajosExcel"
  },
  {
+  "id": "extra-avatar01",
+  "type": "REEL",
+  "at": "2026-11-20T21:05:00",
+  "media": [
+   "content/media/extra/avatar01.mp4"
+  ],
+  "cover_ms": 600,
+  "caption": "¿Excel te da pánico? 😅\nHicimos un juego para aprenderlo: te explica cada fórmula con un ejemplo y luego la usas en misiones reales de trabajo (facturas, ventas, inventario).\n\n✅ Te corrige al momento\n✅ Pistas si te atascas, sin darte la respuesta\n✅ Monedas y distritos que vas desbloqueando\n\nEl primer distrito es gratis → link en la bio.\n💬 Comenta MISION y te respondo con el enlace.\n\nPresentadora creada con IA · imágenes reales de la app.\n\n#excel #aprendeexcel #exceltips #cursodeexcel #trucosexcel"
+ },
+ {
   "id": "day02-story3",
   "type": "STORY",
   "at": "2026-11-20T22:00:00",
@@ -262,16 +272,6 @@
   "media": [
    "content/media/day03/s2.jpg"
   ]
- },
- {
-  "id": "extra-avatar01",
-  "type": "REEL",
-  "at": "2026-11-21T18:00:00",
-  "media": [
-   "content/media/extra/avatar01.mp4"
-  ],
-  "cover_ms": 600,
-  "caption": "¿Excel te da pánico? 😅\nHicimos un juego para aprenderlo: te explica cada fórmula con un ejemplo y luego la usas en misiones reales de trabajo (facturas, ventas, inventario).\n\n✅ Te corrige al momento\n✅ Pistas si te atascas, sin darte la respuesta\n✅ Monedas y distritos que vas desbloqueando\n\nEl primer distrito es gratis → link en la bio.\n💬 Comenta MISION y te respondo con el enlace.\n\nPresentadora creada con IA · imágenes reales de la app.\n\n#excel #aprendeexcel #exceltips #cursodeexcel #trucosexcel"
  },
  {
   "id": "day03-reel",
