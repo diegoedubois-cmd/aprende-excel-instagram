@@ -1,0 +1,32 @@
+name: Descargar medios
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "URLs separadas por espacios"
+        required: true
+      carpeta:
+        description: "Carpeta destino dentro de content/raw"
+        required: true
+permissions:
+  contents: write
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar
+        run: |
+          mkdir -p "content/raw/${{ inputs.carpeta }}"
+          i=1
+          for u in ${{ inputs.urls }}; do
+            case "$u" in https://videogen.vidiq.com/*|https://ai-thumbnails.s3.amazonaws.com/*) ;; *) echo "dominio no permitido: $u"; exit 1;; esac
+            ext="${u##*.}"; curl -fsSL -o "content/raw/${{ inputs.carpeta }}/c$i.$ext" "$u"; i=$((i+1))
+          done
+          ls -la "content/raw/${{ inputs.carpeta }}"
+      - name: Guardar
+        run: |
+          git config user.name "publicador-instagram"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/raw
+          git commit -m "Medios descargados: ${{ inputs.carpeta }}" && git pull --rebase && git push
