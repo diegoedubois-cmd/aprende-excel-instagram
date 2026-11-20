@@ -13,6 +13,9 @@ def main():
                  lambda p: p["type"] == "REEL" and p.get("cover_ms") is not None,
                  lambda p: p["type"] == "CAROUSEL"):
         picks.append(next(p for p in cal if cond(p)))
+    if os.environ.get("ENSAYO_IDS"):
+        want = os.environ["ENSAYO_IDS"].split(",")
+        picks = [p for p in cal if p["id"] in want]
     ok = True
     for post in picks:
         print(f"→ ensayo {post['id']} ({post['type']}, {len(post['media'])} archivos, caption {len(post.get('caption',''))} car.)")

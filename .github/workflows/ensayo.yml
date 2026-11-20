@@ -1,6 +1,10 @@
 name: Ensayo sin publicar
 on:
   workflow_dispatch:
+    inputs:
+      ids:
+        description: "Ids del calendario a ensayar (separados por comas); vacío = muestra estándar"
+        required: false
 jobs:
   ensayo:
     runs-on: ubuntu-latest
@@ -15,4 +19,5 @@ jobs:
           IG_USER_ID: ${{ vars.IG_USER_ID }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
           FB_PAGE_ID: "1391043200767851"
+          ENSAYO_IDS: ${{ inputs.ids }}
         run: python publisher/validar.py
