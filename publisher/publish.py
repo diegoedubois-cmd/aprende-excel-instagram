@@ -173,45 +173,108 @@ def _norm(t):
     return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode().lower()
 
 
+PRIVATE_MESSAGE = "¡Aquí tienes tu acceso! Practica Excel gratis en el Distrito 1: https://aprendeexceljugando.com/ 🎮"
+
+
+def private_reply(comment_id, platform, page_token):
+    """Envía una respuesta privada asociada al comentario, no al usuario."""
+    if platform not in ("instagram", "facebook"):
+        raise ValueError("Plataforma no compatible")
+    result = fb_call("POST", f"{FB_PAGE}/messages", {
+        "recipient": json.dumps({"comment_id": comment_id}),
+        "message": json.dumps({"text": PRIVATE_MESSAGE}),
+    }, page_token)
+    if not result.get("message_id"):
+        raise RuntimeError("Meta no confirmó el envío del mensaje privado")
+    return result
+
+
+def comment_is_recent(value):
+    if not value:
+        return False
+    try:
+        when = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return when.tzinfo is not None and dt.timedelta(0) <= dt.datetime.now(dt.timezone.utc) - when <= dt.timedelta(days=7)
+    except (ValueError, TypeError):
+        return False
+
+
+def failure_label(label, error):
+    # Solo códigos numéricos: no volcar datos personales ni credenciales.
+    import re
+    code = re.search(r'"code"\s*:\s*(\d+)', str(error))
+    subcode = re.search(r'"error_subcode"\s*:\s*(\d+)', str(error))
+    return label + (f" (Meta {code.group(1)}" + (f"/{subcode.group(1)}" if subcode else "") + ")" if code else " (sin código de Meta)")
+
+
 def answer_comments(state):
-    """Responde a quien comenta MISION en los posts de los últimos 30 días."""
+    """Envía un enlace privado por comentario y mantiene separado el registro público."""
     done = state.setdefault("_respondidos", [])
+    private_done = state.setdefault("_privados", [])
+    failures = []
     me = call("GET", IG_USER, {"fields": "username"}).get("username", "")
     media = call("GET", f"{IG_USER}/media", {"fields": "id,timestamp", "limit": "40"}).get("data", [])
     limit = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)
     n = 0
+    tok = fb_token()
+    if not tok:
+        raise RuntimeError("No se ha podido obtener el token de la página para mensajes privados")
     for m in media:
         if dt.datetime.fromisoformat(m["timestamp"].replace("+0000", "+00:00")) < limit:
             continue
         comments = call("GET", f"{m['id']}/comments",
-                        {"fields": "id,text,username,replies{username}", "limit": "50"}).get("data", [])
+                        {"fields": "id,text,username,timestamp,replies{username}", "limit": "50"}).get("data", [])
         for c in comments:
-            if c["id"] in done or c.get("username") == me or "mision" not in _norm(c.get("text", "")):
+            if c.get("username") == me or "mision" not in _norm(c.get("text", "")) or not comment_is_recent(c.get("timestamp")):
                 continue
-            if any(r.get("username") == me for r in c.get("replies", {}).get("data", [])):
-                done.append(c["id"]); continue
             if DRY:
-                print(f"   DRY_RUN: respondería a @{c.get('username')}")
+                print("   DRY_RUN: enviaría un mensaje privado en Instagram")
                 continue
-            call("POST", f"{c['id']}/replies", {"message": random.choice(REPLIES).format(u=c.get("username", ""))})
-            done.append(c["id"]); n += 1
-    tok = fb_token()
+            if c["id"] not in private_done:
+                try:
+                    private_reply(c["id"], "instagram", tok)
+                    private_done.append(c["id"]); n += 1
+                except Exception as error:
+                    failures.append(failure_label("mensaje privado de Instagram", error))
+                    continue
+            if c["id"] not in done:
+                if any(r.get("username") == me for r in c.get("replies", {}).get("data", [])):
+                    done.append(c["id"]); continue
+                try:
+                    call("POST", f"{c['id']}/replies", {"message": "¡Listo! Te enviamos el enlace por mensaje privado ✨"})
+                    done.append(c["id"])
+                except Exception as error:
+                    failures.append(failure_label("respuesta pública de Instagram", error))
     if tok:
         posts = fb_call("GET", f"{FB_PAGE}/posts", {"fields": "id,created_time", "limit": "40"}, tok).get("data", [])
         for p in posts:
-            for c in fb_call("GET", f"{p['id']}/comments", {"fields": "id,message,from,comments{from}", "limit": "50"}, tok).get("data", []):
+            for c in fb_call("GET", f"{p['id']}/comments", {"fields": "id,message,from,created_time,comments{from}", "limit": "50"}, tok).get("data", []):
                 who = (c.get("from") or {}).get("id")
-                if c["id"] in done or who == FB_PAGE or "mision" not in _norm(c.get("message", "")):
+                if who == FB_PAGE or "mision" not in _norm(c.get("message", "")) or not comment_is_recent(c.get("created_time")):
                     continue
-                if any((r.get("from") or {}).get("id") == FB_PAGE for r in c.get("comments", {}).get("data", [])):
-                    done.append(c["id"]); continue
                 if DRY:
-                    print("   DRY_RUN: respondería en Facebook"); continue
-                fb_call("POST", f"{c['id']}/comments", {"message": f"¡Aquí la tienes! Practícala gratis en el Distrito 1: {FB_LINK} 🎮"}, tok)
-                done.append(c["id"]); n += 1
+                    print("   DRY_RUN: enviaría un mensaje privado en Facebook"); continue
+                if c["id"] not in private_done:
+                    try:
+                        private_reply(c["id"], "facebook", tok)
+                        private_done.append(c["id"]); n += 1
+                    except Exception as error:
+                        failures.append(failure_label("mensaje privado de Facebook", error))
+                        continue
+                if c["id"] not in done:
+                    if any((r.get("from") or {}).get("id") == FB_PAGE for r in c.get("comments", {}).get("data", [])):
+                        done.append(c["id"]); continue
+                    try:
+                        fb_call("POST", f"{c['id']}/comments", {"message": "¡Listo! Te enviamos el enlace por mensaje privado ✨"}, tok)
+                        done.append(c["id"])
+                    except Exception as error:
+                        failures.append(failure_label("respuesta pública de Facebook", error))
     state["_respondidos"] = done[-2000:]
+    state["_privados"] = private_done[-2000:]
     if n:
-        print(f"Respuestas a MISION: {n}")
+        print(f"Mensajes privados enviados: {n}")
+    if failures:
+        raise RuntimeError("Errores al procesar comentarios: " + ", ".join(failures))
 
 
 def main():
@@ -259,6 +322,7 @@ def main():
         answer_comments(state)
     except Exception as e:  # las respuestas nunca frenan la publicación
         print(f"Comentarios: {e}", file=sys.stderr)
+        errors += 1
     if not DRY:
         os.makedirs(os.path.dirname(STATE), exist_ok=True)
         with open(STATE, "w", encoding="utf-8") as state_file:
