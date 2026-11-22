@@ -22,9 +22,10 @@ class EnsayoTests(unittest.TestCase):
             calendar.write_text(json.dumps([{"id": "atrasado", "at": old.isoformat(), "type": "REEL"}]), encoding="utf-8")
             def mutate_state(value):
                 value["_respondidos"] = ["simulado"]
-            with patch.multiple(publish, CAL=str(calendar), STATE=str(state), DRY=True), patch.object(publish, "answer_comments", side_effect=mutate_state), patch.object(publish, "container") as container:
+            with patch.multiple(publish, CAL=str(calendar), STATE=str(state), DRY=True), patch.object(publish, "answer_comments", side_effect=mutate_state) as comments, patch.object(publish, "container") as container:
                 publish.main()
                 container.assert_not_called()
+                comments.assert_not_called()
             self.assertEqual(state.read_text(encoding="utf-8"), original)
 
     def test_publicacion_real_sigue_guardando_atrasos(self):

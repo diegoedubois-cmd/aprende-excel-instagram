@@ -318,11 +318,8 @@ def main():
             retries[post["id"]] = retries.get(post["id"], 0) + 1
             if retries[post["id"]] >= 3:
                 state[post["id"]] = {"status": "error", "error": str(e)[:500], "at": now.isoformat()}
-    try:
-        answer_comments(state)
-    except Exception as e:  # las respuestas nunca frenan la publicación
-        print(f"Comentarios: {e}", file=sys.stderr)
-        errors += 1
+    # Las respuestas a comentarios las gestiona Manychat. Mantenerlas fuera
+    # del publicador evita mensajes duplicados y reglas que compitan entre sí.
     if not DRY:
         os.makedirs(os.path.dirname(STATE), exist_ok=True)
         with open(STATE, "w", encoding="utf-8") as state_file:
