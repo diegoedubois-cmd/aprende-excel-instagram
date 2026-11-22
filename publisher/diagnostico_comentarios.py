@@ -25,6 +25,9 @@ def get(path, params, token=TOKEN):
 
 
 def main():
+    info = get("debug_token", {"input_token": TOKEN})
+    info = info.get("data", {})
+    print("Credencial: app=", info.get("app_id", "no disponible"), "válida=", info.get("is_valid", "no disponible"))
     permissions = get("me/permissions", {})
     if "error" in permissions:
         print("Permisos: error", permissions["error"])
