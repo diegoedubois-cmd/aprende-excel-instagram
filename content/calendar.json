@@ -345,6 +345,16 @@
   "caption": "Jefe: «tienes toda la tarde». Yo: 10 segundos 😎\nIZQUIERDA + HALLAR separa el nombre de cualquier lista.\n\n=IZQUIERDA(A2;HALLAR(\" \";A2)-1)\n(Si tu Excel usa coma, cambia ; por ,)\n\nMándaselo a quien todavía lo hace a mano.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #trucosexcel #exceltips #oficina #aprendeexcel"
  },
  {
+  "id": "extra-oferta01",
+  "type": "CAROUSEL",
+  "at": "2026-11-22T19:00:00",
+  "media": [
+   "content/media/extra/oferta_1.jpg",
+   "content/media/extra/oferta_2.jpg"
+  ],
+  "caption": "Comenta MISION y te paso el enlace 👇\n\nAprende Excel jugando: 10 distritos con misiones de trabajo real (facturas, ventas, inventario, conciliación, presupuesto…).\n\n✅ Corrección al instante\n✅ Pistas sin spoilers\n✅ Ranking, logros y diploma verificable\n✅ En tu navegador, 10 minutos al día\n\nEl Distrito 1 es gratis.\n\n#excel #aprendeexcel #cursodeexcel #exceltips #formacion"
+ },
+ {
   "id": "day04-reel",
   "type": "REEL",
   "at": "2026-11-22T20:00:00",
