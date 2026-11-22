@@ -486,6 +486,18 @@
   "caption": "Pregunta de entrevista de Excel: ¿cuántas facturas pasan de 1.000 €? 🧑‍💼\nCONTAR.SI lo cuenta en una fórmula, aunque tengas 10.000 filas.\n\n=CONTAR.SI(B2:B9;\">1000\")\n\nGuárdalo para tu próxima entrevista.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n#excel #entrevistadetrabajo #trucosexcel #aprendeexcel #oficina"
  },
  {
+  "id": "extra-plan30",
+  "type": "CAROUSEL",
+  "at": "2026-11-24T19:00:00",
+  "media": [
+   "content/media/extra/plan30_1.jpg",
+   "content/media/extra/plan30_2.jpg",
+   "content/media/extra/plan30_3.jpg",
+   "content/media/extra/plan30_4.jpg"
+  ],
+  "caption": "Aprende Excel en 30 días sin aburrirte ni abandonar a la semana 📊🎮\n\nEl plan: 3–4 misiones al día, unos 10 minutos.\nDías 1–7: celdas, facturas y datos sucios\nDías 8–14: ventas e informes\nDías 15–21: conciliación, entrevista e inventario\nDías 22–30: nóminas y presupuesto\n= 100 misiones de trabajo real.\n\nGuárdalo y empieza el lunes 📌\n💬 Comenta MISION y te paso el enlace (los 3 primeros días son gratis).\n\n#excel #aprendeexcel #cursodeexcel #exceltips #reto30dias"
+ },
+ {
   "id": "day06-reel",
   "type": "REEL",
   "at": "2026-11-24T20:00:00",
