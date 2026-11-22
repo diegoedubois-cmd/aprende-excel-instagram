@@ -31,7 +31,8 @@ def main():
         return
     granted = sorted(p["permission"] for p in permissions.get("data", []) if p.get("status") == "granted")
     print("Permisos autorizados:", ", ".join(granted))
-    media = get(f"{IG_USER}/media", {"fields": "id,permalink", "limit": 100})
+    target = None
+    media = get(f"{IG_USER}/media", {"fields": "id,permalink,comments_count", "limit": 100})
     if "error" in media:
         print("Instagram: error al leer publicaciones", media["error"])
     else:
@@ -46,10 +47,17 @@ def main():
         print(f"Instagram: publicaciones={len(media.get('data', []))}, comentarios={checked}, coincidencias={matched}, errores={errors}")
         target = next((m for m in media.get("data", []) if "DgAy6i2FdhO" in m.get("permalink", "")), None)
         print("Publicación indicada localizada:", bool(target))
+        if target:
+            print("Comentarios registrados en publicación indicada:", target.get("comments_count", "no disponible"))
+            detail = get(f"{target['id']}/comments", {"fields": "id,text,username,timestamp", "limit": 100})
+            print("Comentarios accesibles con token de usuario:", len(detail.get("data", [])), "error:", detail.get("error", "ninguno"))
     page = get(PAGE, {"fields": "access_token"})
     if "error" in page or not page.get("access_token"):
         print("Facebook: no se pudo obtener acceso de página", page.get("error", {}))
         return
+    if target:
+        detail = get(f"{target['id']}/comments", {"fields": "id,text,username,timestamp", "limit": 100}, page["access_token"])
+        print("Comentarios accesibles con token de página:", len(detail.get("data", [])), "error:", detail.get("error", "ninguno"))
     posts = get(f"{PAGE}/posts", {"fields": "id", "limit": 10}, page["access_token"])
     if "error" in posts:
         print("Facebook: error al leer publicaciones", posts["error"])
