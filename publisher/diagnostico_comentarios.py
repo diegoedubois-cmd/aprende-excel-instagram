@@ -31,7 +31,7 @@ def main():
         return
     granted = sorted(p["permission"] for p in permissions.get("data", []) if p.get("status") == "granted")
     print("Permisos autorizados:", ", ".join(granted))
-    media = get(f"{IG_USER}/media", {"fields": "id", "limit": 10})
+    media = get(f"{IG_USER}/media", {"fields": "id,permalink", "limit": 100})
     if "error" in media:
         print("Instagram: error al leer publicaciones", media["error"])
     else:
@@ -44,6 +44,8 @@ def main():
             checked += len(comments.get("data", []))
             matched += sum("mision" in c.get("text", "").lower() or "misión" in c.get("text", "").lower() for c in comments.get("data", []))
         print(f"Instagram: publicaciones={len(media.get('data', []))}, comentarios={checked}, coincidencias={matched}, errores={errors}")
+        target = next((m for m in media.get("data", []) if "DgAy6i2FdhO" in m.get("permalink", "")), None)
+        print("Publicación indicada localizada:", bool(target))
     page = get(PAGE, {"fields": "access_token"})
     if "error" in page or not page.get("access_token"):
         print("Facebook: no se pudo obtener acceso de página", page.get("error", {}))
