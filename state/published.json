@@ -153,14 +153,7 @@
   "at": "2026-11-21T09:51:48.873886+01:00",
   "facebook_id": "2185321649067999"
  },
- "_retries": {
-  "day03-carrusel": 3
- },
- "day03-carrusel": {
-  "status": "error",
-  "error": "POST 17841413874755929/media_publish -> 403: {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":2207051,\"is_transient\":false,\"error_user_msg\":\"Restringimos ciertas actividades para proteger a nuestra comunidad. Avísanos si crees que cometimos un error.\",\"error_user_title\":\"Se bloqueó la acción\",\"fbtrace_id\":\"AjZNHA1HBHZZlP0oeYuWlpV\"}}",
-  "at": "2026-11-21T15:52:54.093044+01:00"
- },
+ "_retries": {},
  "day03-story2": {
   "status": "publicado",
   "media_id": "18029387279863429",

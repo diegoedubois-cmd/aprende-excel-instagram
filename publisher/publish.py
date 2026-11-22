@@ -15,7 +15,7 @@ TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_USER = os.environ.get("IG_USER_ID", "")
 RAW_BASE = os.environ.get("RAW_BASE", "").rstrip("/")
 DRY = os.environ.get("DRY_RUN", "false").lower() == "true"
-MAX_LATE = dt.timedelta(hours=36)  # no publicar posts muy atrasados
+MAX_LATE = dt.timedelta(hours=48)  # no publicar posts muy atrasados
 
 
 def call(method, path, params):
@@ -281,6 +281,10 @@ def main():
     cal = json.load(open(CAL, encoding="utf-8"))
     state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {}
     now = dt.datetime.now(TZ)
+    pause = state.get("_pausa_hasta")
+    if pause and dt.datetime.fromisoformat(pause) > now:
+        print(f"Instagram bloqueó acciones hace poco: pausa hasta {pause}. No se publica en esta ejecución.")
+        return
     due = []
     for post in cal:
         if post["id"] in state or post.get("skip"):
@@ -312,6 +316,12 @@ def main():
             except Exception as e:  # Facebook no debe frenar Instagram
                 print(f"   Facebook falló: {e}", file=sys.stderr)
         except Exception as e:  # sigue con el resto y deja constancia
+            if "2207051" in str(e) or "Se bloqueó la acción" in str(e):
+                # Bloqueo antispam de Instagram: no insistir. Pausa de 6 h y el post queda pendiente.
+                state["_pausa_hasta"] = (now + dt.timedelta(hours=6)).isoformat()
+                print(f"   BLOQUEO de Instagram: pausa hasta {state['_pausa_hasta']}", file=sys.stderr)
+                errors += 1
+                break
             errors += 1
             print(f"   ERROR: {e}", file=sys.stderr)
             retries = state.setdefault("_retries", {})

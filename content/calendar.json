@@ -249,23 +249,6 @@
   ]
  },
  {
-  "id": "day03-carrusel",
-  "type": "CAROUSEL",
-  "at": "2026-11-21T13:30:00",
-  "media": [
-   "content/media/day03/c1.jpg",
-   "content/media/day03/c2.jpg",
-   "content/media/day03/c3.jpg",
-   "content/media/day03/c4.jpg",
-   "content/media/day03/c5.jpg",
-   "content/media/day03/c6.jpg",
-   "content/media/day03/c7.jpg",
-   "content/media/day03/c8.jpg",
-   "content/media/day03/c9.jpg"
-  ],
-  "caption": "Cómo calcular el total de una factura con IVA en Excel\n\nReto: esta factura de teclado, ratón y monitor da 523,77 €. ¿Dónde está el error? Búscalo antes de deslizar.\n\nSolución: la fórmula del total es =SUMA(D2:D6) y ese rango incluye la fila del subtotal. Resultado: los productos se suman dos veces. El total correcto es =D5+D6 (subtotal + IVA) = 286,77 €.\n\nEn el carrusel tienes dos formas de arreglarlo, cómo guardar el 21 % en una sola celda y una comprobación rápida: el total dividido entre el subtotal tiene que dar 1,21.\n\nMándaselo a quien hace las facturas en tu equipo: le ahorras un mal rato con un cliente.\n\nPractica facturas en la app: link en la bio.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Facturacion"
- },
- {
   "id": "day03-story2",
   "type": "STORY",
   "at": "2026-11-21T15:00:00",
@@ -379,6 +362,23 @@
   "media": [
    "content/media/day05/s1.jpg"
   ]
+ },
+ {
+  "id": "day03-carrusel",
+  "type": "CAROUSEL",
+  "at": "2026-11-23T11:00:00",
+  "media": [
+   "content/media/day03/c1.jpg",
+   "content/media/day03/c2.jpg",
+   "content/media/day03/c3.jpg",
+   "content/media/day03/c4.jpg",
+   "content/media/day03/c5.jpg",
+   "content/media/day03/c6.jpg",
+   "content/media/day03/c7.jpg",
+   "content/media/day03/c8.jpg",
+   "content/media/day03/c9.jpg"
+  ],
+  "caption": "Cómo calcular el total de una factura con IVA en Excel\n\nReto: esta factura de teclado, ratón y monitor da 523,77 €. ¿Dónde está el error? Búscalo antes de deslizar.\n\nSolución: la fórmula del total es =SUMA(D2:D6) y ese rango incluye la fila del subtotal. Resultado: los productos se suman dos veces. El total correcto es =D5+D6 (subtotal + IVA) = 286,77 €.\n\nEn el carrusel tienes dos formas de arreglarlo, cómo guardar el 21 % en una sola celda y una comprobación rápida: el total dividido entre el subtotal tiene que dar 1,21.\n\nMándaselo a quien hace las facturas en tu equipo: le ahorras un mal rato con un cliente.\n\nPractica facturas en la app: link en la bio.\n💬 Comenta MISION y te respondo con el enlace para practicarla gratis.\n\n¿Te da error? En algunos países el separador es la coma: cambia ; por ,\n\n#Excel #TrucosExcel #ExcelEnEspañol #FormulasExcel #Facturacion"
  },
  {
   "id": "day05-carrusel",
