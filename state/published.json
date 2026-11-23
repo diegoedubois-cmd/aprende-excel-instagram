@@ -153,7 +153,9 @@
   "at": "2026-11-21T09:51:48.873886+01:00",
   "facebook_id": "2185321649067999"
  },
- "_retries": {},
+ "_retries": {
+  "day05-carrusel": 1
+ },
  "day03-story2": {
   "status": "publicado",
   "media_id": "18029387279863429",
